@@ -22,9 +22,10 @@ from typing import List
 
 import yaml
 
-# Add repo root and v&v to sys.path
-REPO_ROOT = Path(__file__).resolve().parent.parent.parent
-VV_DIR = REPO_ROOT / "v&v"
+# Add repo root and VV_DIR to sys.path
+SCRIPT_DIR = Path(__file__).resolve().parent
+VV_DIR = SCRIPT_DIR.parent
+REPO_ROOT = VV_DIR.parent if (VV_DIR.parent / "tricys").exists() else VV_DIR
 sys.path.insert(0, str(REPO_ROOT))
 sys.path.insert(0, str(VV_DIR))
 
@@ -109,6 +110,10 @@ def main():
             target_path = REPO_ROOT / p
         elif (CONFIGS_DIR / p).exists():
             target_path = CONFIGS_DIR / p
+        elif (CONFIGS_DIR / "track1" / p).exists():
+            target_path = CONFIGS_DIR / "track1" / p
+        elif (CONFIGS_DIR / "track2" / p).exists():
+            target_path = CONFIGS_DIR / "track2" / p
         else:
             target_path = CONFIGS_DIR / p
 

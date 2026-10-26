@@ -3,7 +3,7 @@ model:
   fileName: ../../models/Abdou2021.mo
   modelName: Abdou2021.Cycle
 scenario:
-  time_base: hour
+  time_base: second
   startTime: 0.0
   stopTime: 50000.0
   stepSize: 1.0

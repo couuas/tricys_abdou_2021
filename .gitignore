@@ -1,4 +1,4 @@
-﻿# Python
+# Python
 __pycache__/
 *.py[cod]
 *.class
@@ -32,3 +32,33 @@ temp/
 *.log
 .cache/
 .pytest_cache/
+
+# Simulation runtime timestamp outputs
+[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]_*/
+**/[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]_*/
+
+# OpenModelica build artifacts
+*.o
+*.c
+*.h
+*.libs
+*.makefile
+*_res.mat
+*_res.csv
+*_info.json
+*_init.xml
+*_JacA.bin
+*_functions.c
+*_functions.h
+*_records.c
+*_literals.h
+*_includes.h
+*_model.h
+*_external_functions.json
+*.exe
+
+# Generated test figures
+figures/*.png
+!figures/Fig04_tbr_vs_burnup.png
+!figures/patent_track1_verification.png
+
