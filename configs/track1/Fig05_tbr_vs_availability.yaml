@@ -1,0 +1,266 @@
+version: '2.0'
+model:
+  fileName: ../../models/Abdou2021.mo
+  modelName: Abdou2021.Cycle
+scenario:
+  time_base: hour
+  startTime: 0.0
+  stopTime: 50000.0
+  stepSize: 1.0
+  method: dassl
+  tolerance: 0.0001
+  variableFilter: time|comp11_Storage.inventory|comp11_Storage.I_reserve_req|plant_total_inv|plant_mass_residual
+task:
+  type: sweep
+  parallel: true
+  max_workers: 8
+  parameters:
+  - name: Table5_AF10pct_prod0.09pct
+    AF: 0.1
+    P_fus: 3000.0
+    f_b: 0.0036
+    eta_f: 0.25
+    t_r: 24.0
+    q_fail: 0.25
+    f_DIR: 0.0
+  - name: Table5_AF30pct_prod0.09pct
+    AF: 0.3
+    P_fus: 3000.0
+    f_b: 0.0036
+    eta_f: 0.25
+    t_r: 24.0
+    q_fail: 0.25
+    f_DIR: 0.0
+  - name: Table5_AF50pct_prod0.09pct
+    AF: 0.5
+    P_fus: 3000.0
+    f_b: 0.0036
+    eta_f: 0.25
+    t_r: 24.0
+    q_fail: 0.25
+    f_DIR: 0.0
+  - name: Table5_AF70pct_prod0.09pct
+    AF: 0.7
+    P_fus: 3000.0
+    f_b: 0.0036
+    eta_f: 0.25
+    t_r: 24.0
+    q_fail: 0.25
+    f_DIR: 0.0
+  - name: Table5_AF90pct_prod0.09pct
+    AF: 0.9
+    P_fus: 3000.0
+    f_b: 0.0036
+    eta_f: 0.25
+    t_r: 24.0
+    q_fail: 0.25
+    f_DIR: 0.0
+  - name: Table5_AF100pct_prod0.09pct
+    AF: 1.0
+    P_fus: 3000.0
+    f_b: 0.0036
+    eta_f: 0.25
+    t_r: 24.0
+    q_fail: 0.25
+    f_DIR: 0.0
+  - name: Prod0.5pct_AF31.8pct
+    P_fus: 3000.0
+    AF: 0.318
+    f_b: 0.02
+    eta_f: 0.25
+    t_r: 24.0
+    q_fail: 0.25
+    f_DIR: 0.0
+  - name: Prod0.5pct_AF50.0pct
+    P_fus: 3000.0
+    AF: 0.5
+    f_b: 0.02
+    eta_f: 0.25
+    t_r: 24.0
+    q_fail: 0.25
+    f_DIR: 0.0
+  - name: Prod0.5pct_AF77.8pct
+    P_fus: 3000.0
+    AF: 0.778
+    f_b: 0.02
+    eta_f: 0.25
+    t_r: 24.0
+    q_fail: 0.25
+    f_DIR: 0.0
+  - name: Prod0.5pct_AF100.0pct
+    P_fus: 3000.0
+    AF: 1.0
+    f_b: 0.02
+    eta_f: 0.25
+    t_r: 24.0
+    q_fail: 0.25
+    f_DIR: 0.0
+  - name: Prod1.0pct_AF18.9pct
+    P_fus: 3000.0
+    AF: 0.189
+    f_b: 0.04
+    eta_f: 0.25
+    t_r: 24.0
+    q_fail: 0.25
+    f_DIR: 0.0
+  - name: Prod1.0pct_AF31.8pct
+    P_fus: 3000.0
+    AF: 0.318
+    f_b: 0.04
+    eta_f: 0.25
+    t_r: 24.0
+    q_fail: 0.25
+    f_DIR: 0.0
+  - name: Prod1.0pct_AF50.0pct
+    P_fus: 3000.0
+    AF: 0.5
+    f_b: 0.04
+    eta_f: 0.25
+    t_r: 24.0
+    q_fail: 0.25
+    f_DIR: 0.0
+  - name: Prod1.0pct_AF77.8pct
+    P_fus: 3000.0
+    AF: 0.778
+    f_b: 0.04
+    eta_f: 0.25
+    t_r: 24.0
+    q_fail: 0.25
+    f_DIR: 0.0
+  - name: Prod1.0pct_AF100.0pct
+    P_fus: 3000.0
+    AF: 1.0
+    f_b: 0.04
+    eta_f: 0.25
+    t_r: 24.0
+    q_fail: 0.25
+    f_DIR: 0.0
+  - name: Prod2.0pct_AF10.4pct
+    P_fus: 3000.0
+    AF: 0.104
+    f_b: 0.08
+    eta_f: 0.25
+    t_r: 24.0
+    q_fail: 0.25
+    f_DIR: 0.0
+  - name: Prod2.0pct_AF18.9pct
+    P_fus: 3000.0
+    AF: 0.189
+    f_b: 0.08
+    eta_f: 0.25
+    t_r: 24.0
+    q_fail: 0.25
+    f_DIR: 0.0
+  - name: Prod2.0pct_AF31.8pct
+    P_fus: 3000.0
+    AF: 0.318
+    f_b: 0.08
+    eta_f: 0.25
+    t_r: 24.0
+    q_fail: 0.25
+    f_DIR: 0.0
+  - name: Prod2.0pct_AF50.0pct
+    P_fus: 3000.0
+    AF: 0.5
+    f_b: 0.08
+    eta_f: 0.25
+    t_r: 24.0
+    q_fail: 0.25
+    f_DIR: 0.0
+  - name: Prod2.0pct_AF77.8pct
+    P_fus: 3000.0
+    AF: 0.778
+    f_b: 0.08
+    eta_f: 0.25
+    t_r: 24.0
+    q_fail: 0.25
+    f_DIR: 0.0
+  - name: Prod2.0pct_AF100.0pct
+    P_fus: 3000.0
+    AF: 1.0
+    f_b: 0.08
+    eta_f: 0.25
+    t_r: 24.0
+    q_fail: 0.25
+    f_DIR: 0.0
+  - name: Prod3.0pct_AF6.5pct
+    P_fus: 3000.0
+    AF: 0.065
+    f_b: 0.12
+    eta_f: 0.25
+    t_r: 24.0
+    q_fail: 0.25
+    f_DIR: 0.0
+  - name: Prod3.0pct_AF10.4pct
+    P_fus: 3000.0
+    AF: 0.104
+    f_b: 0.12
+    eta_f: 0.25
+    t_r: 24.0
+    q_fail: 0.25
+    f_DIR: 0.0
+  - name: Prod3.0pct_AF18.9pct
+    P_fus: 3000.0
+    AF: 0.189
+    f_b: 0.12
+    eta_f: 0.25
+    t_r: 24.0
+    q_fail: 0.25
+    f_DIR: 0.0
+  - name: Prod3.0pct_AF31.8pct
+    P_fus: 3000.0
+    AF: 0.318
+    f_b: 0.12
+    eta_f: 0.25
+    t_r: 24.0
+    q_fail: 0.25
+    f_DIR: 0.0
+  - name: Prod3.0pct_AF50.0pct
+    P_fus: 3000.0
+    AF: 0.5
+    f_b: 0.12
+    eta_f: 0.25
+    t_r: 24.0
+    q_fail: 0.25
+    f_DIR: 0.0
+  - name: Prod3.0pct_AF77.8pct
+    P_fus: 3000.0
+    AF: 0.778
+    f_b: 0.12
+    eta_f: 0.25
+    t_r: 24.0
+    q_fail: 0.25
+    f_DIR: 0.0
+  - name: Prod3.0pct_AF100.0pct
+    P_fus: 3000.0
+    AF: 1.0
+    f_b: 0.12
+    eta_f: 0.25
+    t_r: 24.0
+    q_fail: 0.25
+    f_DIR: 0.0
+  optimization:
+    track: track1_basis
+    track1:
+      mode: direct
+      interpolation_method: pchip
+      subgrid_nadir_refinement: true
+    outer:
+      target_metric:
+        source: comp11_Storage.inventory
+        evaluate: min_value
+        threshold_source: comp11_Storage.I_reserve_req
+        comparator: '>='
+    inner:
+      metric_name: Required_TBR
+      parameter: Lambda
+      target_metric:
+        source: comp11_Storage.inventory
+        evaluate: doubling_time
+        threshold: 43830.0
+        comparator: <=
+plugins:
+  postprocess:
+  - name: abdou_fig05_tbr_vs_availability
+    params:
+      dpi: 300

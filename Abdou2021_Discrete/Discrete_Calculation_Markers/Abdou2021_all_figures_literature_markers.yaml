@@ -1,0 +1,2703 @@
+provenance:
+  paper_title: Physics and technology considerations for the deuterium-tritium fuel
+    cycle and conditions for tritium fuel self sufficiency
+  authors: M. Abdou, M. Riva, A. Ying, C. Day, A. Loarte, L. R. Baylor, P. Humrickhouse,
+    T. F. Fuerst, S. Cho
+  journal: Nuclear Fusion
+  volume: 61
+  number: 1
+  article_id: '013001'
+  year: 2021
+  doi: 10.1088/1741-4326/abbf35
+  purpose: Permanent ground truth archive of all discrete calculation markers extracted
+    from Figures 4 through 15 for TRICYS V&V benchmarks.
+figures:
+  Fig04:
+    total_points: 27
+    curves:
+    - tp_12h
+    - tp_1h
+    - tp_4h
+    records:
+    - figure: Fig04
+      curve: tp_1h
+      tp_hours: 1.0
+      marker_symbol: circle
+      eta_f_fb_nominal_pct: 0.3
+      eta_f_fb_detected_pct: 0.2974
+      required_tbr: 1.2794
+      pixel_x: 327.91
+      pixel_y: 114.63
+    - figure: Fig04
+      curve: tp_1h
+      tp_hours: 1.0
+      marker_symbol: circle
+      eta_f_fb_nominal_pct: 0.5
+      eta_f_fb_detected_pct: 0.4952
+      required_tbr: 1.1687
+      pixel_x: 396.34
+      pixel_y: 617.36
+    - figure: Fig04
+      curve: tp_1h
+      tp_hours: 1.0
+      marker_symbol: circle
+      eta_f_fb_nominal_pct: 0.8
+      eta_f_fb_detected_pct: 0.7961
+      required_tbr: 1.1066
+      pixel_x: 500.46
+      pixel_y: 899.18
+    - figure: Fig04
+      curve: tp_1h
+      tp_hours: 1.0
+      marker_symbol: circle
+      eta_f_fb_nominal_pct: 1.0
+      eta_f_fb_detected_pct: 0.9929
+      required_tbr: 1.0864
+      pixel_x: 568.53
+      pixel_y: 991.72
+    - figure: Fig04
+      curve: tp_1h
+      tp_hours: 1.0
+      marker_symbol: circle
+      eta_f_fb_nominal_pct: 1.5
+      eta_f_fb_detected_pct: 1.4966
+      required_tbr: 1.0595
+      pixel_x: 742.81
+      pixel_y: 1119.07
+    - figure: Fig04
+      curve: tp_1h
+      tp_hours: 1.0
+      marker_symbol: circle
+      eta_f_fb_nominal_pct: 2.0
+      eta_f_fb_detected_pct: 1.9913
+      required_tbr: 1.045
+      pixel_x: 914.01
+      pixel_y: 1182.18
+    - figure: Fig04
+      curve: tp_1h
+      tp_hours: 1.0
+      marker_symbol: circle
+      eta_f_fb_nominal_pct: 2.5
+      eta_f_fb_detected_pct: 2.498
+      required_tbr: 1.0369
+      pixel_x: 1089.33
+      pixel_y: 1219.44
+    - figure: Fig04
+      curve: tp_1h
+      tp_hours: 1.0
+      marker_symbol: circle
+      eta_f_fb_nominal_pct: 3.0
+      eta_f_fb_detected_pct: 2.9987
+      required_tbr: 1.0316
+      pixel_x: 1262.55
+      pixel_y: 1244.56
+    - figure: Fig04
+      curve: tp_1h
+      tp_hours: 1.0
+      marker_symbol: circle
+      eta_f_fb_nominal_pct: 4.0
+      eta_f_fb_detected_pct: 3.9996
+      required_tbr: 1.0244
+      pixel_x: 1608.87
+      pixel_y: 1276.25
+    - figure: Fig04
+      curve: tp_1h
+      tp_hours: 1.0
+      marker_symbol: circle
+      eta_f_fb_nominal_pct: 5.0
+      eta_f_fb_detected_pct: 4.975
+      required_tbr: 1.0208
+      pixel_x: 1946.34
+      pixel_y: 1295.63
+    - figure: Fig04
+      curve: tp_4h
+      tp_hours: 4.0
+      marker_symbol: square
+      eta_f_fb_nominal_pct: 0.5
+      eta_f_fb_detected_pct: 0.4943
+      required_tbr: 1.2116
+      pixel_x: 396.02
+      pixel_y: 418.43
+    - figure: Fig04
+      curve: tp_4h
+      tp_hours: 4.0
+      marker_symbol: square
+      eta_f_fb_nominal_pct: 0.8
+      eta_f_fb_detected_pct: 0.7937
+      required_tbr: 1.1347
+      pixel_x: 499.61
+      pixel_y: 775.18
+    - figure: Fig04
+      curve: tp_4h
+      tp_hours: 4.0
+      marker_symbol: square
+      eta_f_fb_nominal_pct: 1.0
+      eta_f_fb_detected_pct: 0.9917
+      required_tbr: 1.1075
+      pixel_x: 568.12
+      pixel_y: 894.44
+    - figure: Fig04
+      curve: tp_4h
+      tp_hours: 4.0
+      marker_symbol: square
+      eta_f_fb_nominal_pct: 1.5
+      eta_f_fb_detected_pct: 1.4924
+      required_tbr: 1.0729
+      pixel_x: 741.38
+      pixel_y: 1051.74
+    - figure: Fig04
+      curve: tp_4h
+      tp_hours: 4.0
+      marker_symbol: square
+      eta_f_fb_nominal_pct: 2.0
+      eta_f_fb_detected_pct: 1.9913
+      required_tbr: 1.0549
+      pixel_x: 913.99
+      pixel_y: 1133.15
+    - figure: Fig04
+      curve: tp_4h
+      tp_hours: 4.0
+      marker_symbol: square
+      eta_f_fb_nominal_pct: 2.5
+      eta_f_fb_detected_pct: 2.4926
+      required_tbr: 1.0448
+      pixel_x: 1087.45
+      pixel_y: 1179.48
+    - figure: Fig04
+      curve: tp_4h
+      tp_hours: 4.0
+      marker_symbol: square
+      eta_f_fb_nominal_pct: 3.0
+      eta_f_fb_detected_pct: 2.9991
+      required_tbr: 1.0389
+      pixel_x: 1262.67
+      pixel_y: 1211.84
+    - figure: Fig04
+      curve: tp_4h
+      tp_hours: 4.0
+      marker_symbol: square
+      eta_f_fb_nominal_pct: 4.0
+      eta_f_fb_detected_pct: 3.9944
+      required_tbr: 1.0308
+      pixel_x: 1607.08
+      pixel_y: 1250.2
+    - figure: Fig04
+      curve: tp_4h
+      tp_hours: 4.0
+      marker_symbol: square
+      eta_f_fb_nominal_pct: 5.0
+      eta_f_fb_detected_pct: 4.9823
+      required_tbr: 1.0239
+      pixel_x: 1948.89
+      pixel_y: 1274.63
+    - figure: Fig04
+      curve: tp_12h
+      tp_hours: 12.0
+      marker_symbol: triangle
+      eta_f_fb_nominal_pct: 0.8
+      eta_f_fb_detected_pct: 0.7954
+      required_tbr: 1.2062
+      pixel_x: 500.19
+      pixel_y: 445.02
+    - figure: Fig04
+      curve: tp_12h
+      tp_hours: 12.0
+      marker_symbol: triangle
+      eta_f_fb_nominal_pct: 1.0
+      eta_f_fb_detected_pct: 0.994
+      required_tbr: 1.1655
+      pixel_x: 568.93
+      pixel_y: 631.43
+    - figure: Fig04
+      curve: tp_12h
+      tp_hours: 12.0
+      marker_symbol: triangle
+      eta_f_fb_nominal_pct: 1.5
+      eta_f_fb_detected_pct: 1.4956
+      required_tbr: 1.1119
+      pixel_x: 742.49
+      pixel_y: 877.59
+    - figure: Fig04
+      curve: tp_12h
+      tp_hours: 12.0
+      marker_symbol: triangle
+      eta_f_fb_nominal_pct: 2.0
+      eta_f_fb_detected_pct: 1.9923
+      required_tbr: 1.0843
+      pixel_x: 914.35
+      pixel_y: 1000.76
+    - figure: Fig04
+      curve: tp_12h
+      tp_hours: 12.0
+      marker_symbol: triangle
+      eta_f_fb_nominal_pct: 2.5
+      eta_f_fb_detected_pct: 2.4957
+      required_tbr: 1.0694
+      pixel_x: 1088.52
+      pixel_y: 1074.2
+    - figure: Fig04
+      curve: tp_12h
+      tp_hours: 12.0
+      marker_symbol: triangle
+      eta_f_fb_nominal_pct: 3.0
+      eta_f_fb_detected_pct: 2.9999
+      required_tbr: 1.0579
+      pixel_x: 1262.96
+      pixel_y: 1123.43
+    - figure: Fig04
+      curve: tp_12h
+      tp_hours: 12.0
+      marker_symbol: triangle
+      eta_f_fb_nominal_pct: 4.0
+      eta_f_fb_detected_pct: 3.9935
+      required_tbr: 1.0441
+      pixel_x: 1606.75
+      pixel_y: 1184.12
+    - figure: Fig04
+      curve: tp_12h
+      tp_hours: 12.0
+      marker_symbol: triangle
+      eta_f_fb_nominal_pct: 5.0
+      eta_f_fb_detected_pct: 4.9803
+      required_tbr: 1.0368
+      pixel_x: 1948.18
+      pixel_y: 1221.65
+  Fig05:
+    total_points: 22
+    curves:
+    - eta_f_fb_0.5pct
+    - eta_f_fb_1.0pct
+    - eta_f_fb_2.0pct
+    - eta_f_fb_3.0pct
+    records:
+    - figure: Fig05
+      curve: eta_f_fb_0.5pct
+      eta_f_fb_pct: 0.5
+      marker_symbol: diamond
+      AF_nominal_pct: 31.8
+      AF_detected_pct: 31.84
+      required_tbr: 1.2948
+      pixel_x: 758.55
+      pixel_y: 43.76
+    - figure: Fig05
+      curve: eta_f_fb_0.5pct
+      eta_f_fb_pct: 0.5
+      marker_symbol: diamond
+      AF_nominal_pct: 50.0
+      AF_detected_pct: 49.96
+      required_tbr: 1.2127
+      pixel_x: 1047.85
+      pixel_y: 420.55
+    - figure: Fig05
+      curve: eta_f_fb_0.5pct
+      eta_f_fb_pct: 0.5
+      marker_symbol: diamond
+      AF_nominal_pct: 77.8
+      AF_detected_pct: 77.73
+      required_tbr: 1.1952
+      pixel_x: 1491.34
+      pixel_y: 501.11
+    - figure: Fig05
+      curve: eta_f_fb_0.5pct
+      eta_f_fb_pct: 0.5
+      marker_symbol: diamond
+      AF_nominal_pct: 100.0
+      AF_detected_pct: 99.82
+      required_tbr: 1.1852
+      pixel_x: 1844.16
+      pixel_y: 547.09
+    - figure: Fig05
+      curve: eta_f_fb_1.0pct
+      eta_f_fb_pct: 1.0
+      marker_symbol: triangle
+      AF_nominal_pct: 18.9
+      AF_detected_pct: 18.9
+      required_tbr: 1.2263
+      pixel_x: 551.84
+      pixel_y: 358.32
+    - figure: Fig05
+      curve: eta_f_fb_1.0pct
+      eta_f_fb_pct: 1.0
+      marker_symbol: triangle
+      AF_nominal_pct: 31.8
+      AF_detected_pct: 31.77
+      required_tbr: 1.1505
+      pixel_x: 757.42
+      pixel_y: 706.4
+    - figure: Fig05
+      curve: eta_f_fb_1.0pct
+      eta_f_fb_pct: 1.0
+      marker_symbol: triangle
+      AF_nominal_pct: 50.0
+      AF_detected_pct: 49.94
+      required_tbr: 1.1082
+      pixel_x: 1047.52
+      pixel_y: 900.24
+    - figure: Fig05
+      curve: eta_f_fb_1.0pct
+      eta_f_fb_pct: 1.0
+      marker_symbol: triangle
+      AF_nominal_pct: 77.8
+      AF_detected_pct: 77.74
+      required_tbr: 1.1
+      pixel_x: 1491.48
+      pixel_y: 937.84
+    - figure: Fig05
+      curve: eta_f_fb_1.0pct
+      eta_f_fb_pct: 1.0
+      marker_symbol: triangle
+      AF_nominal_pct: 100.0
+      AF_detected_pct: 99.85
+      required_tbr: 1.0951
+      pixel_x: 1844.57
+      pixel_y: 960.45
+    - figure: Fig05
+      curve: eta_f_fb_2.0pct
+      eta_f_fb_pct: 2.0
+      marker_symbol: square
+      AF_nominal_pct: 10.4
+      AF_detected_pct: 10.37
+      required_tbr: 1.1948
+      pixel_x: 415.66
+      pixel_y: 503.07
+    - figure: Fig05
+      curve: eta_f_fb_2.0pct
+      eta_f_fb_pct: 2.0
+      marker_symbol: square
+      AF_nominal_pct: 18.9
+      AF_detected_pct: 18.88
+      required_tbr: 1.1175
+      pixel_x: 551.47
+      pixel_y: 857.67
+    - figure: Fig05
+      curve: eta_f_fb_2.0pct
+      eta_f_fb_pct: 2.0
+      marker_symbol: square
+      AF_nominal_pct: 31.8
+      AF_detected_pct: 31.78
+      required_tbr: 1.0782
+      pixel_x: 757.55
+      pixel_y: 1038.11
+    - figure: Fig05
+      curve: eta_f_fb_2.0pct
+      eta_f_fb_pct: 2.0
+      marker_symbol: square
+      AF_nominal_pct: 50.0
+      AF_detected_pct: 49.94
+      required_tbr: 1.0561
+      pixel_x: 1047.62
+      pixel_y: 1139.43
+    - figure: Fig05
+      curve: eta_f_fb_2.0pct
+      eta_f_fb_pct: 2.0
+      marker_symbol: square
+      AF_nominal_pct: 77.8
+      AF_detected_pct: 77.75
+      required_tbr: 1.0522
+      pixel_x: 1491.69
+      pixel_y: 1157.24
+    - figure: Fig05
+      curve: eta_f_fb_2.0pct
+      eta_f_fb_pct: 2.0
+      marker_symbol: square
+      AF_nominal_pct: 100.0
+      AF_detected_pct: 99.87
+      required_tbr: 1.0493
+      pixel_x: 1844.88
+      pixel_y: 1170.67
+    - figure: Fig05
+      curve: eta_f_fb_3.0pct
+      eta_f_fb_pct: 3.0
+      marker_symbol: circle
+      AF_nominal_pct: 6.5
+      AF_detected_pct: 6.53
+      required_tbr: 1.2081
+      pixel_x: 354.23
+      pixel_y: 441.78
+    - figure: Fig05
+      curve: eta_f_fb_3.0pct
+      eta_f_fb_pct: 3.0
+      marker_symbol: circle
+      AF_nominal_pct: 10.4
+      AF_detected_pct: 10.38
+      required_tbr: 1.1344
+      pixel_x: 415.81
+      pixel_y: 779.91
+    - figure: Fig05
+      curve: eta_f_fb_3.0pct
+      eta_f_fb_pct: 3.0
+      marker_symbol: circle
+      AF_nominal_pct: 18.9
+      AF_detected_pct: 18.92
+      required_tbr: 1.0813
+      pixel_x: 552.08
+      pixel_y: 1023.8
+    - figure: Fig05
+      curve: eta_f_fb_3.0pct
+      eta_f_fb_pct: 3.0
+      marker_symbol: circle
+      AF_nominal_pct: 31.8
+      AF_detected_pct: 31.78
+      required_tbr: 1.0537
+      pixel_x: 757.48
+      pixel_y: 1150.36
+    - figure: Fig05
+      curve: eta_f_fb_3.0pct
+      eta_f_fb_pct: 3.0
+      marker_symbol: circle
+      AF_nominal_pct: 50.0
+      AF_detected_pct: 49.97
+      required_tbr: 1.0388
+      pixel_x: 1047.98
+      pixel_y: 1218.88
+    - figure: Fig05
+      curve: eta_f_fb_3.0pct
+      eta_f_fb_pct: 3.0
+      marker_symbol: circle
+      AF_nominal_pct: 77.8
+      AF_detected_pct: 77.75
+      required_tbr: 1.0354
+      pixel_x: 1491.7
+      pixel_y: 1234.42
+    - figure: Fig05
+      curve: eta_f_fb_3.0pct
+      eta_f_fb_pct: 3.0
+      marker_symbol: circle
+      AF_nominal_pct: 100.0
+      AF_detected_pct: 99.85
+      required_tbr: 1.0336
+      pixel_x: 1844.64
+      pixel_y: 1242.95
+  Fig06:
+    total_points: 20
+    curves:
+    - eta_f_fb_0.5pct
+    - eta_f_fb_1.0pct
+    - eta_f_fb_2.0pct
+    - eta_f_fb_3.0pct
+    records:
+    - figure: Fig06
+      curve: eta_f_fb_0.5pct
+      eta_f_fb_pct: 0.5
+      marker_symbol: diamond
+      DIR_nominal_pct: 10.0
+      DIR_detected_pct: 9.9
+      required_tbr: 1.204
+      pixel_x: 241.34
+      pixel_y: 247.77
+    - figure: Fig06
+      curve: eta_f_fb_0.5pct
+      eta_f_fb_pct: 0.5
+      marker_symbol: diamond
+      DIR_nominal_pct: 30.0
+      DIR_detected_pct: 30.0
+      required_tbr: 1.1873
+      pixel_x: 648.46
+      pixel_y: 331.17
+    - figure: Fig06
+      curve: eta_f_fb_0.5pct
+      eta_f_fb_pct: 0.5
+      marker_symbol: diamond
+      DIR_nominal_pct: 50.0
+      DIR_detected_pct: 50.0
+      required_tbr: 1.171
+      pixel_x: 1054.94
+      pixel_y: 412.43
+    - figure: Fig06
+      curve: eta_f_fb_0.5pct
+      eta_f_fb_pct: 0.5
+      marker_symbol: diamond
+      DIR_nominal_pct: 70.0
+      DIR_detected_pct: 69.9
+      required_tbr: 1.154
+      pixel_x: 1459.52
+      pixel_y: 497.17
+    - figure: Fig06
+      curve: eta_f_fb_0.5pct
+      eta_f_fb_pct: 0.5
+      marker_symbol: diamond
+      DIR_nominal_pct: 90.0
+      DIR_detected_pct: 90.0
+      required_tbr: 1.1371
+      pixel_x: 1866.3
+      pixel_y: 581.58
+    - figure: Fig06
+      curve: eta_f_fb_1.0pct
+      eta_f_fb_pct: 1.0
+      marker_symbol: square
+      DIR_nominal_pct: 10.0
+      DIR_detected_pct: 9.9
+      required_tbr: 1.1039
+      pixel_x: 241.28
+      pixel_y: 747.29
+    - figure: Fig06
+      curve: eta_f_fb_1.0pct
+      eta_f_fb_pct: 1.0
+      marker_symbol: square
+      DIR_nominal_pct: 30.0
+      DIR_detected_pct: 30.0
+      required_tbr: 1.0958
+      pixel_x: 648.08
+      pixel_y: 788.0
+    - figure: Fig06
+      curve: eta_f_fb_1.0pct
+      eta_f_fb_pct: 1.0
+      marker_symbol: square
+      DIR_nominal_pct: 50.0
+      DIR_detected_pct: 50.0
+      required_tbr: 1.0875
+      pixel_x: 1054.93
+      pixel_y: 828.99
+    - figure: Fig06
+      curve: eta_f_fb_1.0pct
+      eta_f_fb_pct: 1.0
+      marker_symbol: square
+      DIR_nominal_pct: 70.0
+      DIR_detected_pct: 69.9
+      required_tbr: 1.0788
+      pixel_x: 1459.49
+      pixel_y: 872.71
+    - figure: Fig06
+      curve: eta_f_fb_1.0pct
+      eta_f_fb_pct: 1.0
+      marker_symbol: square
+      DIR_nominal_pct: 90.0
+      DIR_detected_pct: 90.0
+      required_tbr: 1.0706
+      pixel_x: 1866.63
+      pixel_y: 913.32
+    - figure: Fig06
+      curve: eta_f_fb_2.0pct
+      eta_f_fb_pct: 2.0
+      marker_symbol: circle
+      DIR_nominal_pct: 10.0
+      DIR_detected_pct: 9.9
+      required_tbr: 1.0537
+      pixel_x: 241.64
+      pixel_y: 998.17
+    - figure: Fig06
+      curve: eta_f_fb_2.0pct
+      eta_f_fb_pct: 2.0
+      marker_symbol: circle
+      DIR_nominal_pct: 30.0
+      DIR_detected_pct: 30.0
+      required_tbr: 1.0498
+      pixel_x: 648.43
+      pixel_y: 1017.39
+    - figure: Fig06
+      curve: eta_f_fb_2.0pct
+      eta_f_fb_pct: 2.0
+      marker_symbol: circle
+      DIR_nominal_pct: 50.0
+      DIR_detected_pct: 50.0
+      required_tbr: 1.0456
+      pixel_x: 1054.95
+      pixel_y: 1038.51
+    - figure: Fig06
+      curve: eta_f_fb_2.0pct
+      eta_f_fb_pct: 2.0
+      marker_symbol: circle
+      DIR_nominal_pct: 70.0
+      DIR_detected_pct: 70.0
+      required_tbr: 1.0417
+      pixel_x: 1460.05
+      pixel_y: 1058.06
+    - figure: Fig06
+      curve: eta_f_fb_2.0pct
+      eta_f_fb_pct: 2.0
+      marker_symbol: circle
+      DIR_nominal_pct: 90.0
+      DIR_detected_pct: 90.0
+      required_tbr: 1.0374
+      pixel_x: 1866.9
+      pixel_y: 1079.21
+    - figure: Fig06
+      curve: eta_f_fb_3.0pct
+      eta_f_fb_pct: 3.0
+      marker_symbol: cross
+      DIR_nominal_pct: 10.0
+      DIR_detected_pct: 10.0
+      required_tbr: 1.0377
+      pixel_x: 242.11
+      pixel_y: 1077.64
+    - figure: Fig06
+      curve: eta_f_fb_3.0pct
+      eta_f_fb_pct: 3.0
+      marker_symbol: cross
+      DIR_nominal_pct: 30.0
+      DIR_detected_pct: 29.9
+      required_tbr: 1.035
+      pixel_x: 646.21
+      pixel_y: 1091.49
+    - figure: Fig06
+      curve: eta_f_fb_3.0pct
+      eta_f_fb_pct: 3.0
+      marker_symbol: cross
+      DIR_nominal_pct: 50.0
+      DIR_detected_pct: 50.0
+      required_tbr: 1.0319
+      pixel_x: 1055.97
+      pixel_y: 1106.55
+    - figure: Fig06
+      curve: eta_f_fb_3.0pct
+      eta_f_fb_pct: 3.0
+      marker_symbol: cross
+      DIR_nominal_pct: 70.0
+      DIR_detected_pct: 69.9
+      required_tbr: 1.029
+      pixel_x: 1459.45
+      pixel_y: 1121.01
+    - figure: Fig06
+      curve: eta_f_fb_3.0pct
+      eta_f_fb_pct: 3.0
+      marker_symbol: cross
+      DIR_nominal_pct: 90.0
+      DIR_detected_pct: 90.0
+      required_tbr: 1.0269
+      pixel_x: 1866.85
+      pixel_y: 1131.87
+  Fig07:
+    total_points: 29
+    curves:
+    - td_1yr
+    - td_3yr
+    - td_5yr
+    - td_7yr
+    records:
+    - figure: Fig07
+      curve: td_1yr
+      td_years: 1.0
+      marker_symbol: circle
+      eta_f_fb_nominal_pct: 2.0
+      eta_f_fb_detected_pct: 2.0
+      required_tbr: 1.278
+      pixel_x: 943.8
+      pixel_y: 118.65
+    - figure: Fig07
+      curve: td_1yr
+      td_years: 1.0
+      marker_symbol: circle
+      eta_f_fb_nominal_pct: 3.0
+      eta_f_fb_detected_pct: 2.999
+      required_tbr: 1.2361
+      pixel_x: 1252.88
+      pixel_y: 297.06
+    - figure: Fig07
+      curve: td_1yr
+      td_years: 1.0
+      marker_symbol: circle
+      eta_f_fb_nominal_pct: 4.0
+      eta_f_fb_detected_pct: 3.998
+      required_tbr: 1.1861
+      pixel_x: 1561.96
+      pixel_y: 510.04
+    - figure: Fig07
+      curve: td_1yr
+      td_years: 1.0
+      marker_symbol: circle
+      eta_f_fb_nominal_pct: 5.0
+      eta_f_fb_detected_pct: 5.0
+      required_tbr: 1.1562
+      pixel_x: 1871.92
+      pixel_y: 637.07
+    - figure: Fig07
+      curve: td_3yr
+      td_years: 3.0
+      marker_symbol: square
+      eta_f_fb_nominal_pct: 0.8
+      eta_f_fb_detected_pct: 0.798
+      required_tbr: 1.2521
+      pixel_x: 571.97
+      pixel_y: 228.96
+    - figure: Fig07
+      curve: td_3yr
+      td_years: 3.0
+      marker_symbol: square
+      eta_f_fb_nominal_pct: 1.0
+      eta_f_fb_detected_pct: 0.998
+      required_tbr: 1.2048
+      pixel_x: 633.84
+      pixel_y: 430.07
+    - figure: Fig07
+      curve: td_3yr
+      td_years: 3.0
+      marker_symbol: square
+      eta_f_fb_nominal_pct: 1.5
+      eta_f_fb_detected_pct: 1.5
+      required_tbr: 1.1376
+      pixel_x: 789.02
+      pixel_y: 716.36
+    - figure: Fig07
+      curve: td_3yr
+      td_years: 3.0
+      marker_symbol: square
+      eta_f_fb_nominal_pct: 2.0
+      eta_f_fb_detected_pct: 1.997
+      required_tbr: 1.1062
+      pixel_x: 942.98
+      pixel_y: 850.1
+    - figure: Fig07
+      curve: td_3yr
+      td_years: 3.0
+      marker_symbol: square
+      eta_f_fb_nominal_pct: 2.5
+      eta_f_fb_detected_pct: 2.498
+      required_tbr: 1.0862
+      pixel_x: 1098.01
+      pixel_y: 934.97
+    - figure: Fig07
+      curve: td_3yr
+      td_years: 3.0
+      marker_symbol: square
+      eta_f_fb_nominal_pct: 3.0
+      eta_f_fb_detected_pct: 2.999
+      required_tbr: 1.0731
+      pixel_x: 1252.98
+      pixel_y: 991.0
+    - figure: Fig07
+      curve: td_3yr
+      td_years: 3.0
+      marker_symbol: square
+      eta_f_fb_nominal_pct: 4.0
+      eta_f_fb_detected_pct: 3.998
+      required_tbr: 1.0571
+      pixel_x: 1562.07
+      pixel_y: 1058.95
+    - figure: Fig07
+      curve: td_3yr
+      td_years: 3.0
+      marker_symbol: square
+      eta_f_fb_nominal_pct: 5.0
+      eta_f_fb_detected_pct: 5.0
+      required_tbr: 1.0475
+      pixel_x: 1871.92
+      pixel_y: 1099.91
+    - figure: Fig07
+      curve: td_5yr
+      td_years: 5.0
+      marker_symbol: triangle
+      eta_f_fb_nominal_pct: 0.8
+      eta_f_fb_detected_pct: 0.811
+      required_tbr: 1.1963
+      pixel_x: 575.96
+      pixel_y: 466.27
+    - figure: Fig07
+      curve: td_5yr
+      td_years: 5.0
+      marker_symbol: triangle
+      eta_f_fb_nominal_pct: 1.0
+      eta_f_fb_detected_pct: 1.004
+      required_tbr: 1.1581
+      pixel_x: 635.7
+      pixel_y: 628.85
+    - figure: Fig07
+      curve: td_5yr
+      td_years: 5.0
+      marker_symbol: triangle
+      eta_f_fb_nominal_pct: 1.5
+      eta_f_fb_detected_pct: 1.498
+      required_tbr: 1.1101
+      pixel_x: 788.61
+      pixel_y: 833.16
+    - figure: Fig07
+      curve: td_5yr
+      td_years: 5.0
+      marker_symbol: triangle
+      eta_f_fb_nominal_pct: 2.0
+      eta_f_fb_detected_pct: 1.996
+      required_tbr: 1.084
+      pixel_x: 942.55
+      pixel_y: 944.64
+    - figure: Fig07
+      curve: td_5yr
+      td_years: 5.0
+      marker_symbol: triangle
+      eta_f_fb_nominal_pct: 2.5
+      eta_f_fb_detected_pct: 2.498
+      required_tbr: 1.0693
+      pixel_x: 1097.92
+      pixel_y: 1006.96
+    - figure: Fig07
+      curve: td_5yr
+      td_years: 5.0
+      marker_symbol: triangle
+      eta_f_fb_nominal_pct: 3.0
+      eta_f_fb_detected_pct: 3.0
+      required_tbr: 1.0591
+      pixel_x: 1253.26
+      pixel_y: 1050.53
+    - figure: Fig07
+      curve: td_5yr
+      td_years: 5.0
+      marker_symbol: triangle
+      eta_f_fb_nominal_pct: 4.0
+      eta_f_fb_detected_pct: 3.999
+      required_tbr: 1.0467
+      pixel_x: 1562.33
+      pixel_y: 1103.02
+    - figure: Fig07
+      curve: td_5yr
+      td_years: 5.0
+      marker_symbol: triangle
+      eta_f_fb_nominal_pct: 5.0
+      eta_f_fb_detected_pct: 5.004
+      required_tbr: 1.0393
+      pixel_x: 1873.19
+      pixel_y: 1134.83
+    - figure: Fig07
+      curve: td_7yr
+      td_years: 7.0
+      marker_symbol: star
+      eta_f_fb_nominal_pct: 0.5
+      eta_f_fb_detected_pct: 0.497
+      required_tbr: 1.2933
+      pixel_x: 478.75
+      pixel_y: 53.41
+    - figure: Fig07
+      curve: td_7yr
+      td_years: 7.0
+      marker_symbol: star
+      eta_f_fb_nominal_pct: 0.8
+      eta_f_fb_detected_pct: 0.798
+      required_tbr: 1.1843
+      pixel_x: 572.02
+      pixel_y: 517.45
+    - figure: Fig07
+      curve: td_7yr
+      td_years: 7.0
+      marker_symbol: star
+      eta_f_fb_nominal_pct: 1.0
+      eta_f_fb_detected_pct: 0.998
+      required_tbr: 1.149
+      pixel_x: 633.84
+      pixel_y: 667.88
+    - figure: Fig07
+      curve: td_7yr
+      td_years: 7.0
+      marker_symbol: star
+      eta_f_fb_nominal_pct: 1.5
+      eta_f_fb_detected_pct: 1.497
+      required_tbr: 1.1018
+      pixel_x: 788.19
+      pixel_y: 868.73
+    - figure: Fig07
+      curve: td_7yr
+      td_years: 7.0
+      marker_symbol: star
+      eta_f_fb_nominal_pct: 2.0
+      eta_f_fb_detected_pct: 1.998
+      required_tbr: 1.0771
+      pixel_x: 943.16
+      pixel_y: 973.99
+    - figure: Fig07
+      curve: td_7yr
+      td_years: 7.0
+      marker_symbol: star
+      eta_f_fb_nominal_pct: 2.5
+      eta_f_fb_detected_pct: 2.499
+      required_tbr: 1.0629
+      pixel_x: 1098.08
+      pixel_y: 1034.08
+    - figure: Fig07
+      curve: td_7yr
+      td_years: 7.0
+      marker_symbol: star
+      eta_f_fb_nominal_pct: 3.0
+      eta_f_fb_detected_pct: 3.0
+      required_tbr: 1.0533
+      pixel_x: 1253.07
+      pixel_y: 1075.06
+    - figure: Fig07
+      curve: td_7yr
+      td_years: 7.0
+      marker_symbol: star
+      eta_f_fb_nominal_pct: 4.0
+      eta_f_fb_detected_pct: 3.999
+      required_tbr: 1.0416
+      pixel_x: 1562.14
+      pixel_y: 1124.76
+    - figure: Fig07
+      curve: td_7yr
+      td_years: 7.0
+      marker_symbol: star
+      eta_f_fb_nominal_pct: 5.0
+      eta_f_fb_detected_pct: 5.0
+      required_tbr: 1.0342
+      pixel_x: 1872.14
+      pixel_y: 1156.5
+  Fig08:
+    total_points: 32
+    curves:
+    - td_1yr
+    - td_3yr
+    - td_5yr
+    - td_7yr
+    records:
+    - figure: Fig08
+      curve: td_1yr
+      td_years: 1.0
+      marker_symbol: circle
+      eta_f_fb_nominal_pct: 1.5
+      eta_f_fb_detected_pct: 1.499
+      required_tbr: 1.203
+      pixel_x: 784.74
+      pixel_y: 266.04
+    - figure: Fig08
+      curve: td_1yr
+      td_years: 1.0
+      marker_symbol: circle
+      eta_f_fb_nominal_pct: 2.0
+      eta_f_fb_detected_pct: 1.998
+      required_tbr: 1.1552
+      pixel_x: 938.04
+      pixel_y: 508.37
+    - figure: Fig08
+      curve: td_1yr
+      td_years: 1.0
+      marker_symbol: circle
+      eta_f_fb_nominal_pct: 2.5
+      eta_f_fb_detected_pct: 2.498
+      required_tbr: 1.1281
+      pixel_x: 1091.84
+      pixel_y: 645.99
+    - figure: Fig08
+      curve: td_1yr
+      td_years: 1.0
+      marker_symbol: circle
+      eta_f_fb_nominal_pct: 3.0
+      eta_f_fb_detected_pct: 2.998
+      required_tbr: 1.11
+      pixel_x: 1245.67
+      pixel_y: 737.29
+    - figure: Fig08
+      curve: td_1yr
+      td_years: 1.0
+      marker_symbol: circle
+      eta_f_fb_nominal_pct: 4.0
+      eta_f_fb_detected_pct: 3.997
+      required_tbr: 1.0853
+      pixel_x: 1552.65
+      pixel_y: 862.49
+    - figure: Fig08
+      curve: td_1yr
+      td_years: 1.0
+      marker_symbol: circle
+      eta_f_fb_nominal_pct: 5.0
+      eta_f_fb_detected_pct: 4.999
+      required_tbr: 1.0721
+      pixel_x: 1860.7
+      pixel_y: 929.7
+    - figure: Fig08
+      curve: td_3yr
+      td_years: 3.0
+      marker_symbol: square
+      eta_f_fb_nominal_pct: 0.8
+      eta_f_fb_detected_pct: 0.797
+      required_tbr: 1.1612
+      pixel_x: 569.12
+      pixel_y: 478.05
+    - figure: Fig08
+      curve: td_3yr
+      td_years: 3.0
+      marker_symbol: square
+      eta_f_fb_nominal_pct: 1.0
+      eta_f_fb_detected_pct: 0.999
+      required_tbr: 1.131
+      pixel_x: 631.12
+      pixel_y: 631.09
+    - figure: Fig08
+      curve: td_3yr
+      td_years: 3.0
+      marker_symbol: square
+      eta_f_fb_nominal_pct: 1.5
+      eta_f_fb_detected_pct: 1.5
+      required_tbr: 1.0892
+      pixel_x: 785.03
+      pixel_y: 842.97
+    - figure: Fig08
+      curve: td_3yr
+      td_years: 3.0
+      marker_symbol: square
+      eta_f_fb_nominal_pct: 2.0
+      eta_f_fb_detected_pct: 1.997
+      required_tbr: 1.069
+      pixel_x: 937.85
+      pixel_y: 945.12
+    - figure: Fig08
+      curve: td_3yr
+      td_years: 3.0
+      marker_symbol: square
+      eta_f_fb_nominal_pct: 2.5
+      eta_f_fb_detected_pct: 2.498
+      required_tbr: 1.0561
+      pixel_x: 1092.04
+      pixel_y: 1010.87
+    - figure: Fig08
+      curve: td_3yr
+      td_years: 3.0
+      marker_symbol: square
+      eta_f_fb_nominal_pct: 3.0
+      eta_f_fb_detected_pct: 2.999
+      required_tbr: 1.0481
+      pixel_x: 1246.02
+      pixel_y: 1051.1
+    - figure: Fig08
+      curve: td_3yr
+      td_years: 3.0
+      marker_symbol: square
+      eta_f_fb_nominal_pct: 4.0
+      eta_f_fb_detected_pct: 3.998
+      required_tbr: 1.0371
+      pixel_x: 1552.96
+      pixel_y: 1107.01
+    - figure: Fig08
+      curve: td_3yr
+      td_years: 3.0
+      marker_symbol: square
+      eta_f_fb_nominal_pct: 5.0
+      eta_f_fb_detected_pct: 5.0
+      required_tbr: 1.0312
+      pixel_x: 1861.02
+      pixel_y: 1136.97
+    - figure: Fig08
+      curve: td_5yr
+      td_years: 5.0
+      marker_symbol: triangle
+      eta_f_fb_nominal_pct: 0.5
+      eta_f_fb_detected_pct: 0.496
+      required_tbr: 1.1707
+      pixel_x: 476.6
+      pixel_y: 429.9
+    - figure: Fig08
+      curve: td_5yr
+      td_years: 5.0
+      marker_symbol: triangle
+      eta_f_fb_nominal_pct: 0.8
+      eta_f_fb_detected_pct: 0.796
+      required_tbr: 1.1085
+      pixel_x: 568.83
+      pixel_y: 745.27
+    - figure: Fig08
+      curve: td_5yr
+      td_years: 5.0
+      marker_symbol: triangle
+      eta_f_fb_nominal_pct: 1.0
+      eta_f_fb_detected_pct: 0.997
+      required_tbr: 1.0877
+      pixel_x: 630.37
+      pixel_y: 850.63
+    - figure: Fig08
+      curve: td_5yr
+      td_years: 5.0
+      marker_symbol: triangle
+      eta_f_fb_nominal_pct: 1.5
+      eta_f_fb_detected_pct: 1.494
+      required_tbr: 1.0598
+      pixel_x: 783.31
+      pixel_y: 991.8
+    - figure: Fig08
+      curve: td_5yr
+      td_years: 5.0
+      marker_symbol: triangle
+      eta_f_fb_nominal_pct: 2.0
+      eta_f_fb_detected_pct: 1.996
+      required_tbr: 1.0457
+      pixel_x: 937.51
+      pixel_y: 1063.55
+    - figure: Fig08
+      curve: td_5yr
+      td_years: 5.0
+      marker_symbol: triangle
+      eta_f_fb_nominal_pct: 2.5
+      eta_f_fb_detected_pct: 2.496
+      required_tbr: 1.0376
+      pixel_x: 1091.42
+      pixel_y: 1104.31
+    - figure: Fig08
+      curve: td_5yr
+      td_years: 5.0
+      marker_symbol: triangle
+      eta_f_fb_nominal_pct: 3.0
+      eta_f_fb_detected_pct: 2.995
+      required_tbr: 1.0317
+      pixel_x: 1244.68
+      pixel_y: 1134.28
+    - figure: Fig08
+      curve: td_5yr
+      td_years: 5.0
+      marker_symbol: triangle
+      eta_f_fb_nominal_pct: 4.0
+      eta_f_fb_detected_pct: 3.994
+      required_tbr: 1.0252
+      pixel_x: 1551.87
+      pixel_y: 1167.37
+    - figure: Fig08
+      curve: td_5yr
+      td_years: 5.0
+      marker_symbol: triangle
+      eta_f_fb_nominal_pct: 5.0
+      eta_f_fb_detected_pct: 4.997
+      required_tbr: 1.0219
+      pixel_x: 1860.13
+      pixel_y: 1183.79
+    - figure: Fig08
+      curve: td_7yr
+      td_years: 7.0
+      marker_symbol: star
+      eta_f_fb_nominal_pct: 0.5
+      eta_f_fb_detected_pct: 0.498
+      required_tbr: 1.1404
+      pixel_x: 477.23
+      pixel_y: 583.22
+    - figure: Fig08
+      curve: td_7yr
+      td_years: 7.0
+      marker_symbol: star
+      eta_f_fb_nominal_pct: 0.8
+      eta_f_fb_detected_pct: 0.801
+      required_tbr: 1.0884
+      pixel_x: 570.16
+      pixel_y: 846.99
+    - figure: Fig08
+      curve: td_7yr
+      td_years: 7.0
+      marker_symbol: star
+      eta_f_fb_nominal_pct: 1.0
+      eta_f_fb_detected_pct: 0.999
+      required_tbr: 1.0714
+      pixel_x: 631.1
+      pixel_y: 933.03
+    - figure: Fig08
+      curve: td_7yr
+      td_years: 7.0
+      marker_symbol: star
+      eta_f_fb_nominal_pct: 1.5
+      eta_f_fb_detected_pct: 1.499
+      required_tbr: 1.0489
+      pixel_x: 784.77
+      pixel_y: 1046.93
+    - figure: Fig08
+      curve: td_7yr
+      td_years: 7.0
+      marker_symbol: star
+      eta_f_fb_nominal_pct: 2.0
+      eta_f_fb_detected_pct: 1.999
+      required_tbr: 1.0378
+      pixel_x: 938.35
+      pixel_y: 1103.29
+    - figure: Fig08
+      curve: td_7yr
+      td_years: 7.0
+      marker_symbol: star
+      eta_f_fb_nominal_pct: 2.5
+      eta_f_fb_detected_pct: 2.498
+      required_tbr: 1.0306
+      pixel_x: 1091.96
+      pixel_y: 1139.91
+    - figure: Fig08
+      curve: td_7yr
+      td_years: 7.0
+      marker_symbol: star
+      eta_f_fb_nominal_pct: 3.0
+      eta_f_fb_detected_pct: 2.999
+      required_tbr: 1.0259
+      pixel_x: 1245.98
+      pixel_y: 1163.56
+    - figure: Fig08
+      curve: td_7yr
+      td_years: 7.0
+      marker_symbol: star
+      eta_f_fb_nominal_pct: 4.0
+      eta_f_fb_detected_pct: 3.998
+      required_tbr: 1.0205
+      pixel_x: 1553.07
+      pixel_y: 1191.31
+    - figure: Fig08
+      curve: td_7yr
+      td_years: 7.0
+      marker_symbol: star
+      eta_f_fb_nominal_pct: 5.0
+      eta_f_fb_detected_pct: 4.999
+      required_tbr: 1.0176
+      pixel_x: 1860.72
+      pixel_y: 1205.77
+  Fig10:
+    total_points: 24
+    curves:
+    - tp_12h
+    - tp_1h
+    - tp_4h
+    records:
+    - figure: Fig10
+      curve: tp_1h
+      tp_hours: 1.0
+      marker_symbol: circle
+      eta_f_fb_nominal_pct: 0.5
+      eta_f_fb_detected_pct: 0.496
+      startup_inventory_IS0_kg: 29.6
+      pixel_x: 383.77
+      pixel_y: 351.83
+    - figure: Fig10
+      curve: tp_1h
+      tp_hours: 1.0
+      marker_symbol: circle
+      eta_f_fb_nominal_pct: 0.8
+      eta_f_fb_detected_pct: 0.796
+      startup_inventory_IS0_kg: 18.942
+      pixel_x: 483.12
+      pixel_y: 686.76
+    - figure: Fig10
+      curve: tp_1h
+      tp_hours: 1.0
+      marker_symbol: circle
+      eta_f_fb_nominal_pct: 1.0
+      eta_f_fb_detected_pct: 0.997
+      startup_inventory_IS0_kg: 15.286
+      pixel_x: 549.35
+      pixel_y: 801.64
+    - figure: Fig10
+      curve: tp_1h
+      tp_hours: 1.0
+      marker_symbol: circle
+      eta_f_fb_nominal_pct: 1.5
+      eta_f_fb_detected_pct: 1.497
+      startup_inventory_IS0_kg: 10.462
+      pixel_x: 714.55
+      pixel_y: 953.22
+    - figure: Fig10
+      curve: tp_1h
+      tp_hours: 1.0
+      marker_symbol: circle
+      eta_f_fb_nominal_pct: 2.0
+      eta_f_fb_detected_pct: 1.998
+      startup_inventory_IS0_kg: 8.062
+      pixel_x: 880.07
+      pixel_y: 1028.65
+    - figure: Fig10
+      curve: tp_1h
+      tp_hours: 1.0
+      marker_symbol: circle
+      eta_f_fb_nominal_pct: 2.5
+      eta_f_fb_detected_pct: 2.5
+      startup_inventory_IS0_kg: 6.656
+      pixel_x: 1045.91
+      pixel_y: 1072.84
+    - figure: Fig10
+      curve: tp_1h
+      tp_hours: 1.0
+      marker_symbol: circle
+      eta_f_fb_nominal_pct: 3.0
+      eta_f_fb_detected_pct: 2.996
+      startup_inventory_IS0_kg: 5.738
+      pixel_x: 1209.86
+      pixel_y: 1101.69
+    - figure: Fig10
+      curve: tp_1h
+      tp_hours: 1.0
+      marker_symbol: circle
+      eta_f_fb_nominal_pct: 4.0
+      eta_f_fb_detected_pct: 3.997
+      startup_inventory_IS0_kg: 4.503
+      pixel_x: 1540.53
+      pixel_y: 1140.5
+    - figure: Fig10
+      curve: tp_1h
+      tp_hours: 1.0
+      marker_symbol: circle
+      eta_f_fb_nominal_pct: 5.0
+      eta_f_fb_detected_pct: 4.999
+      startup_inventory_IS0_kg: 3.807
+      pixel_x: 1871.68
+      pixel_y: 1162.36
+    - figure: Fig10
+      curve: tp_4h
+      tp_hours: 4.0
+      marker_symbol: square
+      eta_f_fb_nominal_pct: 0.8
+      eta_f_fb_detected_pct: 0.796
+      startup_inventory_IS0_kg: 26.794
+      pixel_x: 482.94
+      pixel_y: 440.01
+    - figure: Fig10
+      curve: tp_4h
+      tp_hours: 4.0
+      marker_symbol: square
+      eta_f_fb_nominal_pct: 1.0
+      eta_f_fb_detected_pct: 0.995
+      startup_inventory_IS0_kg: 21.594
+      pixel_x: 548.8
+      pixel_y: 603.4
+    - figure: Fig10
+      curve: tp_4h
+      tp_hours: 4.0
+      marker_symbol: square
+      eta_f_fb_nominal_pct: 1.5
+      eta_f_fb_detected_pct: 1.497
+      startup_inventory_IS0_kg: 14.663
+      pixel_x: 714.66
+      pixel_y: 821.2
+    - figure: Fig10
+      curve: tp_4h
+      tp_hours: 4.0
+      marker_symbol: square
+      eta_f_fb_nominal_pct: 2.0
+      eta_f_fb_detected_pct: 1.997
+      startup_inventory_IS0_kg: 11.258
+      pixel_x: 879.92
+      pixel_y: 928.21
+    - figure: Fig10
+      curve: tp_4h
+      tp_hours: 4.0
+      marker_symbol: square
+      eta_f_fb_nominal_pct: 2.5
+      eta_f_fb_detected_pct: 2.499
+      startup_inventory_IS0_kg: 9.244
+      pixel_x: 1045.6
+      pixel_y: 991.5
+    - figure: Fig10
+      curve: tp_4h
+      tp_hours: 4.0
+      marker_symbol: square
+      eta_f_fb_nominal_pct: 3.0
+      eta_f_fb_detected_pct: 2.995
+      startup_inventory_IS0_kg: 7.841
+      pixel_x: 1209.53
+      pixel_y: 1035.58
+    - figure: Fig10
+      curve: tp_4h
+      tp_hours: 4.0
+      marker_symbol: square
+      eta_f_fb_nominal_pct: 4.0
+      eta_f_fb_detected_pct: 3.997
+      startup_inventory_IS0_kg: 6.135
+      pixel_x: 1540.65
+      pixel_y: 1089.22
+    - figure: Fig10
+      curve: tp_4h
+      tp_hours: 4.0
+      marker_symbol: square
+      eta_f_fb_nominal_pct: 5.0
+      eta_f_fb_detected_pct: 4.999
+      startup_inventory_IS0_kg: 5.111
+      pixel_x: 1871.6
+      pixel_y: 1121.38
+    - figure: Fig10
+      curve: tp_12h
+      tp_hours: 12.0
+      marker_symbol: triangle
+      eta_f_fb_nominal_pct: 1.0
+      eta_f_fb_detected_pct: 0.996
+      startup_inventory_IS0_kg: 38.505
+      pixel_x: 549.09
+      pixel_y: 71.98
+    - figure: Fig10
+      curve: tp_12h
+      tp_hours: 12.0
+      marker_symbol: triangle
+      eta_f_fb_nominal_pct: 1.5
+      eta_f_fb_detected_pct: 1.496
+      startup_inventory_IS0_kg: 25.95
+      pixel_x: 714.38
+      pixel_y: 466.52
+    - figure: Fig10
+      curve: tp_12h
+      tp_hours: 12.0
+      marker_symbol: triangle
+      eta_f_fb_nominal_pct: 2.0
+      eta_f_fb_detected_pct: 1.997
+      startup_inventory_IS0_kg: 19.739
+      pixel_x: 879.78
+      pixel_y: 661.69
+    - figure: Fig10
+      curve: tp_12h
+      tp_hours: 12.0
+      marker_symbol: triangle
+      eta_f_fb_nominal_pct: 2.5
+      eta_f_fb_detected_pct: 2.499
+      startup_inventory_IS0_kg: 15.929
+      pixel_x: 1045.58
+      pixel_y: 781.42
+    - figure: Fig10
+      curve: tp_12h
+      tp_hours: 12.0
+      marker_symbol: triangle
+      eta_f_fb_nominal_pct: 3.0
+      eta_f_fb_detected_pct: 2.994
+      startup_inventory_IS0_kg: 13.443
+      pixel_x: 1209.24
+      pixel_y: 859.56
+    - figure: Fig10
+      curve: tp_12h
+      tp_hours: 12.0
+      marker_symbol: triangle
+      eta_f_fb_nominal_pct: 4.0
+      eta_f_fb_detected_pct: 3.997
+      startup_inventory_IS0_kg: 10.328
+      pixel_x: 1540.49
+      pixel_y: 957.45
+    - figure: Fig10
+      curve: tp_12h
+      tp_hours: 12.0
+      marker_symbol: triangle
+      eta_f_fb_nominal_pct: 5.0
+      eta_f_fb_detected_pct: 4.998
+      startup_inventory_IS0_kg: 8.5
+      pixel_x: 1871.37
+      pixel_y: 1014.9
+  Fig11:
+    total_points: 20
+    curves:
+    - eta_f_fb_0.5pct
+    - eta_f_fb_1.0pct
+    - eta_f_fb_2.0pct
+    - eta_f_fb_3.0pct
+    records:
+    - figure: Fig11
+      curve: eta_f_fb_0.5pct
+      eta_f_fb_pct: 0.5
+      marker_symbol: diamond
+      DIR_nominal_pct: 10.0
+      DIR_detected_pct: 9.9
+      startup_inventory_IS0_kg: 40.574
+      pixel_x: 209.46
+      pixel_y: 140.0
+    - figure: Fig11
+      curve: eta_f_fb_0.5pct
+      eta_f_fb_pct: 0.5
+      marker_symbol: diamond
+      DIR_nominal_pct: 30.0
+      DIR_detected_pct: 30.0
+      startup_inventory_IS0_kg: 37.043
+      pixel_x: 624.37
+      pixel_y: 239.73
+    - figure: Fig11
+      curve: eta_f_fb_0.5pct
+      eta_f_fb_pct: 0.5
+      marker_symbol: diamond
+      DIR_nominal_pct: 50.0
+      DIR_detected_pct: 50.0
+      startup_inventory_IS0_kg: 33.582
+      pixel_x: 1039.25
+      pixel_y: 337.5
+    - figure: Fig11
+      curve: eta_f_fb_0.5pct
+      eta_f_fb_pct: 0.5
+      marker_symbol: diamond
+      DIR_nominal_pct: 70.0
+      DIR_detected_pct: 70.0
+      startup_inventory_IS0_kg: 30.154
+      pixel_x: 1452.19
+      pixel_y: 434.33
+    - figure: Fig11
+      curve: eta_f_fb_0.5pct
+      eta_f_fb_pct: 0.5
+      marker_symbol: diamond
+      DIR_nominal_pct: 90.0
+      DIR_detected_pct: 90.0
+      startup_inventory_IS0_kg: 26.638
+      pixel_x: 1866.29
+      pixel_y: 533.62
+    - figure: Fig11
+      curve: eta_f_fb_1.0pct
+      eta_f_fb_pct: 1.0
+      marker_symbol: square
+      DIR_nominal_pct: 10.0
+      DIR_detected_pct: 9.9
+      startup_inventory_IS0_kg: 20.759
+      pixel_x: 209.51
+      pixel_y: 699.68
+    - figure: Fig11
+      curve: eta_f_fb_1.0pct
+      eta_f_fb_pct: 1.0
+      marker_symbol: square
+      DIR_nominal_pct: 30.0
+      DIR_detected_pct: 30.0
+      startup_inventory_IS0_kg: 19.029
+      pixel_x: 624.28
+      pixel_y: 748.52
+    - figure: Fig11
+      curve: eta_f_fb_1.0pct
+      eta_f_fb_pct: 1.0
+      marker_symbol: square
+      DIR_nominal_pct: 50.0
+      DIR_detected_pct: 50.0
+      startup_inventory_IS0_kg: 17.297
+      pixel_x: 1038.8
+      pixel_y: 797.45
+    - figure: Fig11
+      curve: eta_f_fb_1.0pct
+      eta_f_fb_pct: 1.0
+      marker_symbol: square
+      DIR_nominal_pct: 70.0
+      DIR_detected_pct: 69.9
+      startup_inventory_IS0_kg: 15.563
+      pixel_x: 1451.45
+      pixel_y: 846.44
+    - figure: Fig11
+      curve: eta_f_fb_1.0pct
+      eta_f_fb_pct: 1.0
+      marker_symbol: square
+      DIR_nominal_pct: 90.0
+      DIR_detected_pct: 90.0
+      startup_inventory_IS0_kg: 13.84
+      pixel_x: 1866.26
+      pixel_y: 895.1
+    - figure: Fig11
+      curve: eta_f_fb_2.0pct
+      eta_f_fb_pct: 2.0
+      marker_symbol: circle
+      DIR_nominal_pct: 10.0
+      DIR_detected_pct: 9.9
+      startup_inventory_IS0_kg: 10.803
+      pixel_x: 209.6
+      pixel_y: 980.88
+    - figure: Fig11
+      curve: eta_f_fb_2.0pct
+      eta_f_fb_pct: 2.0
+      marker_symbol: circle
+      DIR_nominal_pct: 30.0
+      DIR_detected_pct: 30.0
+      startup_inventory_IS0_kg: 9.989
+      pixel_x: 624.26
+      pixel_y: 1003.88
+    - figure: Fig11
+      curve: eta_f_fb_2.0pct
+      eta_f_fb_pct: 2.0
+      marker_symbol: circle
+      DIR_nominal_pct: 50.0
+      DIR_detected_pct: 50.0
+      startup_inventory_IS0_kg: 9.146
+      pixel_x: 1038.69
+      pixel_y: 1027.68
+    - figure: Fig11
+      curve: eta_f_fb_2.0pct
+      eta_f_fb_pct: 2.0
+      marker_symbol: circle
+      DIR_nominal_pct: 70.0
+      DIR_detected_pct: 69.9
+      startup_inventory_IS0_kg: 8.294
+      pixel_x: 1451.94
+      pixel_y: 1051.73
+    - figure: Fig11
+      curve: eta_f_fb_2.0pct
+      eta_f_fb_pct: 2.0
+      marker_symbol: circle
+      DIR_nominal_pct: 90.0
+      DIR_detected_pct: 90.0
+      startup_inventory_IS0_kg: 7.429
+      pixel_x: 1866.47
+      pixel_y: 1076.16
+    - figure: Fig11
+      curve: eta_f_fb_3.0pct
+      eta_f_fb_pct: 3.0
+      marker_symbol: cross
+      DIR_nominal_pct: 10.0
+      DIR_detected_pct: 10.0
+      startup_inventory_IS0_kg: 7.536
+      pixel_x: 210.35
+      pixel_y: 1073.14
+    - figure: Fig11
+      curve: eta_f_fb_3.0pct
+      eta_f_fb_pct: 3.0
+      marker_symbol: cross
+      DIR_nominal_pct: 30.0
+      DIR_detected_pct: 29.9
+      startup_inventory_IS0_kg: 7.022
+      pixel_x: 623.45
+      pixel_y: 1087.68
+    - figure: Fig11
+      curve: eta_f_fb_3.0pct
+      eta_f_fb_pct: 3.0
+      marker_symbol: cross
+      DIR_nominal_pct: 50.0
+      DIR_detected_pct: 50.0
+      startup_inventory_IS0_kg: 6.425
+      pixel_x: 1037.98
+      pixel_y: 1104.52
+    - figure: Fig11
+      curve: eta_f_fb_3.0pct
+      eta_f_fb_pct: 3.0
+      marker_symbol: cross
+      DIR_nominal_pct: 70.0
+      DIR_detected_pct: 69.9
+      startup_inventory_IS0_kg: 5.793
+      pixel_x: 1451.83
+      pixel_y: 1122.38
+    - figure: Fig11
+      curve: eta_f_fb_3.0pct
+      eta_f_fb_pct: 3.0
+      marker_symbol: cross
+      DIR_nominal_pct: 90.0
+      DIR_detected_pct: 90.0
+      startup_inventory_IS0_kg: 5.242
+      pixel_x: 1867.63
+      pixel_y: 1137.94
+  Fig12:
+    total_points: 30
+    curves:
+    - prod_0.5pct
+    - prod_1.0pct
+    - prod_2.0pct
+    - prod_3.0pct
+    - prod_5.0pct
+    records:
+    - figure: Fig12
+      curve: prod_0.5pct
+      eta_f_fb_pct: 0.5
+      marker_symbol: circle
+      reserve_time_tr_hours: 0.0
+      tr_detected_hours: -0.04
+      startup_inventory_IS0_kg: 19.527
+      pixel_x: 212.49
+      pixel_y: 802.78
+    - figure: Fig12
+      curve: prod_0.5pct
+      eta_f_fb_pct: 0.5
+      marker_symbol: circle
+      reserve_time_tr_hours: 2.0
+      tr_detected_hours: 1.98
+      startup_inventory_IS0_kg: 21.379
+      pixel_x: 283.39
+      pixel_y: 755.13
+    - figure: Fig12
+      curve: prod_0.5pct
+      eta_f_fb_pct: 0.5
+      marker_symbol: circle
+      reserve_time_tr_hours: 6.0
+      tr_detected_hours: 5.96
+      startup_inventory_IS0_kg: 25.216
+      pixel_x: 422.49
+      pixel_y: 656.44
+    - figure: Fig12
+      curve: prod_0.5pct
+      eta_f_fb_pct: 0.5
+      marker_symbol: circle
+      reserve_time_tr_hours: 12.0
+      tr_detected_hours: 11.98
+      startup_inventory_IS0_kg: 30.863
+      pixel_x: 632.65
+      pixel_y: 511.2
+    - figure: Fig12
+      curve: prod_0.5pct
+      eta_f_fb_pct: 0.5
+      marker_symbol: circle
+      reserve_time_tr_hours: 24.0
+      tr_detected_hours: 24.0
+      startup_inventory_IS0_kg: 42.345
+      pixel_x: 1053.16
+      pixel_y: 215.89
+    - figure: Fig12
+      curve: prod_0.5pct
+      eta_f_fb_pct: 0.5
+      marker_symbol: circle
+      reserve_time_tr_hours: 32.0
+      tr_detected_hours: 31.79
+      startup_inventory_IS0_kg: 49.708
+      pixel_x: 1325.28
+      pixel_y: 26.51
+    - figure: Fig12
+      curve: prod_1.0pct
+      eta_f_fb_pct: 1.0
+      marker_symbol: square
+      reserve_time_tr_hours: 0.0
+      tr_detected_hours: -0.04
+      startup_inventory_IS0_kg: 10.213
+      pixel_x: 212.56
+      pixel_y: 1042.32
+    - figure: Fig12
+      curve: prod_1.0pct
+      eta_f_fb_pct: 1.0
+      marker_symbol: square
+      reserve_time_tr_hours: 2.0
+      tr_detected_hours: 1.98
+      startup_inventory_IS0_kg: 11.174
+      pixel_x: 283.08
+      pixel_y: 1017.6
+    - figure: Fig12
+      curve: prod_1.0pct
+      eta_f_fb_pct: 1.0
+      marker_symbol: square
+      reserve_time_tr_hours: 6.0
+      tr_detected_hours: 5.96
+      startup_inventory_IS0_kg: 13.094
+      pixel_x: 422.19
+      pixel_y: 968.22
+    - figure: Fig12
+      curve: prod_1.0pct
+      eta_f_fb_pct: 1.0
+      marker_symbol: square
+      reserve_time_tr_hours: 12.0
+      tr_detected_hours: 11.96
+      startup_inventory_IS0_kg: 15.976
+      pixel_x: 632.05
+      pixel_y: 894.09
+    - figure: Fig12
+      curve: prod_1.0pct
+      eta_f_fb_pct: 1.0
+      marker_symbol: square
+      reserve_time_tr_hours: 24.0
+      tr_detected_hours: 24.01
+      startup_inventory_IS0_kg: 21.654
+      pixel_x: 1053.18
+      pixel_y: 748.05
+    - figure: Fig12
+      curve: prod_1.0pct
+      eta_f_fb_pct: 1.0
+      marker_symbol: square
+      reserve_time_tr_hours: 48.0
+      tr_detected_hours: 48.01
+      startup_inventory_IS0_kg: 33.001
+      pixel_x: 1892.19
+      pixel_y: 456.21
+    - figure: Fig12
+      curve: prod_2.0pct
+      eta_f_fb_pct: 2.0
+      marker_symbol: triangle
+      reserve_time_tr_hours: 0.0
+      tr_detected_hours: -0.02
+      startup_inventory_IS0_kg: 5.561
+      pixel_x: 213.39
+      pixel_y: 1161.98
+    - figure: Fig12
+      curve: prod_2.0pct
+      eta_f_fb_pct: 2.0
+      marker_symbol: triangle
+      reserve_time_tr_hours: 2.0
+      tr_detected_hours: 1.99
+      startup_inventory_IS0_kg: 6.056
+      pixel_x: 283.51
+      pixel_y: 1149.24
+    - figure: Fig12
+      curve: prod_2.0pct
+      eta_f_fb_pct: 2.0
+      marker_symbol: triangle
+      reserve_time_tr_hours: 6.0
+      tr_detected_hours: 5.98
+      startup_inventory_IS0_kg: 7.034
+      pixel_x: 422.91
+      pixel_y: 1124.08
+    - figure: Fig12
+      curve: prod_2.0pct
+      eta_f_fb_pct: 2.0
+      marker_symbol: triangle
+      reserve_time_tr_hours: 12.0
+      tr_detected_hours: 11.99
+      startup_inventory_IS0_kg: 8.501
+      pixel_x: 633.0
+      pixel_y: 1086.35
+    - figure: Fig12
+      curve: prod_2.0pct
+      eta_f_fb_pct: 2.0
+      marker_symbol: triangle
+      reserve_time_tr_hours: 24.0
+      tr_detected_hours: 24.01
+      startup_inventory_IS0_kg: 11.297
+      pixel_x: 1053.28
+      pixel_y: 1014.44
+    - figure: Fig12
+      curve: prod_2.0pct
+      eta_f_fb_pct: 2.0
+      marker_symbol: triangle
+      reserve_time_tr_hours: 48.0
+      tr_detected_hours: 48.01
+      startup_inventory_IS0_kg: 17.023
+      pixel_x: 1892.27
+      pixel_y: 867.16
+    - figure: Fig12
+      curve: prod_3.0pct
+      eta_f_fb_pct: 3.0
+      marker_symbol: star
+      reserve_time_tr_hours: 0.0
+      tr_detected_hours: -0.04
+      startup_inventory_IS0_kg: 4.1
+      pixel_x: 212.65
+      pixel_y: 1199.56
+    - figure: Fig12
+      curve: prod_3.0pct
+      eta_f_fb_pct: 3.0
+      marker_symbol: star
+      reserve_time_tr_hours: 2.0
+      tr_detected_hours: 1.98
+      startup_inventory_IS0_kg: 4.433
+      pixel_x: 283.27
+      pixel_y: 1191.0
+    - figure: Fig12
+      curve: prod_3.0pct
+      eta_f_fb_pct: 3.0
+      marker_symbol: star
+      reserve_time_tr_hours: 6.0
+      tr_detected_hours: 5.96
+      startup_inventory_IS0_kg: 5.013
+      pixel_x: 422.21
+      pixel_y: 1176.06
+    - figure: Fig12
+      curve: prod_3.0pct
+      eta_f_fb_pct: 3.0
+      marker_symbol: star
+      reserve_time_tr_hours: 12.0
+      tr_detected_hours: 11.96
+      startup_inventory_IS0_kg: 5.963
+      pixel_x: 632.15
+      pixel_y: 1151.63
+    - figure: Fig12
+      curve: prod_3.0pct
+      eta_f_fb_pct: 3.0
+      marker_symbol: star
+      reserve_time_tr_hours: 24.0
+      tr_detected_hours: 24.0
+      startup_inventory_IS0_kg: 7.888
+      pixel_x: 1052.97
+      pixel_y: 1102.11
+    - figure: Fig12
+      curve: prod_3.0pct
+      eta_f_fb_pct: 3.0
+      marker_symbol: star
+      reserve_time_tr_hours: 48.0
+      tr_detected_hours: 48.0
+      startup_inventory_IS0_kg: 11.639
+      pixel_x: 1891.93
+      pixel_y: 1005.65
+    - figure: Fig12
+      curve: prod_5.0pct
+      eta_f_fb_pct: 5.0
+      marker_symbol: diamond
+      reserve_time_tr_hours: 0.0
+      tr_detected_hours: -0.05
+      startup_inventory_IS0_kg: 2.805
+      pixel_x: 212.23
+      pixel_y: 1232.85
+    - figure: Fig12
+      curve: prod_5.0pct
+      eta_f_fb_pct: 5.0
+      marker_symbol: diamond
+      reserve_time_tr_hours: 2.0
+      tr_detected_hours: 1.98
+      startup_inventory_IS0_kg: 2.993
+      pixel_x: 283.22
+      pixel_y: 1228.03
+    - figure: Fig12
+      curve: prod_5.0pct
+      eta_f_fb_pct: 5.0
+      marker_symbol: diamond
+      reserve_time_tr_hours: 6.0
+      tr_detected_hours: 5.96
+      startup_inventory_IS0_kg: 3.336
+      pixel_x: 422.2
+      pixel_y: 1219.2
+    - figure: Fig12
+      curve: prod_5.0pct
+      eta_f_fb_pct: 5.0
+      marker_symbol: diamond
+      reserve_time_tr_hours: 12.0
+      tr_detected_hours: 11.97
+      startup_inventory_IS0_kg: 3.935
+      pixel_x: 632.53
+      pixel_y: 1203.79
+    - figure: Fig12
+      curve: prod_5.0pct
+      eta_f_fb_pct: 5.0
+      marker_symbol: diamond
+      reserve_time_tr_hours: 24.0
+      tr_detected_hours: 24.01
+      startup_inventory_IS0_kg: 5.12
+      pixel_x: 1053.3
+      pixel_y: 1173.32
+    - figure: Fig12
+      curve: prod_5.0pct
+      eta_f_fb_pct: 5.0
+      marker_symbol: diamond
+      reserve_time_tr_hours: 48.0
+      tr_detected_hours: 48.0
+      startup_inventory_IS0_kg: 7.421
+      pixel_x: 1892.06
+      pixel_y: 1114.12
+  Fig13:
+    total_points: 30
+    curves:
+    - prod_0.5pct
+    - prod_1.0pct
+    - prod_2.0pct
+    - prod_3.0pct
+    - prod_5.0pct
+    records:
+    - figure: Fig13
+      curve: prod_0.5pct
+      eta_f_fb_pct: 0.5
+      marker_symbol: circle
+      reserve_time_tr_hours: 0.0
+      tr_detected_hours: 0.15
+      reserve_inventory_Ir_kg: 0.0
+      pixel_x: 219.36
+      pixel_y: 1302.53
+    - figure: Fig13
+      curve: prod_0.5pct
+      eta_f_fb_pct: 0.5
+      marker_symbol: circle
+      reserve_time_tr_hours: 2.0
+      tr_detected_hours: 1.98
+      reserve_inventory_Ir_kg: 2.071
+      pixel_x: 283.3
+      pixel_y: 1252.7
+    - figure: Fig13
+      curve: prod_0.5pct
+      eta_f_fb_pct: 0.5
+      marker_symbol: circle
+      reserve_time_tr_hours: 6.0
+      tr_detected_hours: 5.96
+      reserve_inventory_Ir_kg: 5.76
+      pixel_x: 422.31
+      pixel_y: 1157.73
+    - figure: Fig13
+      curve: prod_0.5pct
+      eta_f_fb_pct: 0.5
+      marker_symbol: circle
+      reserve_time_tr_hours: 12.0
+      tr_detected_hours: 11.96
+      reserve_inventory_Ir_kg: 11.545
+      pixel_x: 632.52
+      pixel_y: 1008.84
+    - figure: Fig13
+      curve: prod_0.5pct
+      eta_f_fb_pct: 0.5
+      marker_symbol: circle
+      reserve_time_tr_hours: 24.0
+      tr_detected_hours: 23.98
+      reserve_inventory_Ir_kg: 22.992
+      pixel_x: 1052.92
+      pixel_y: 714.19
+    - figure: Fig13
+      curve: prod_0.5pct
+      eta_f_fb_pct: 0.5
+      marker_symbol: circle
+      reserve_time_tr_hours: 48.0
+      tr_detected_hours: 47.97
+      reserve_inventory_Ir_kg: 45.891
+      pixel_x: 1892.12
+      pixel_y: 124.77
+    - figure: Fig13
+      curve: prod_1.0pct
+      eta_f_fb_pct: 1.0
+      marker_symbol: square
+      reserve_time_tr_hours: 0.0
+      tr_detected_hours: -0.05
+      reserve_inventory_Ir_kg: 0.0
+      pixel_x: 212.2
+      pixel_y: 1303.36
+    - figure: Fig13
+      curve: prod_1.0pct
+      eta_f_fb_pct: 1.0
+      marker_symbol: square
+      reserve_time_tr_hours: 2.0
+      tr_detected_hours: 1.96
+      reserve_inventory_Ir_kg: 1.362
+      pixel_x: 282.63
+      pixel_y: 1270.95
+    - figure: Fig13
+      curve: prod_1.0pct
+      eta_f_fb_pct: 1.0
+      marker_symbol: square
+      reserve_time_tr_hours: 6.0
+      tr_detected_hours: 5.95
+      reserve_inventory_Ir_kg: 2.937
+      pixel_x: 422.18
+      pixel_y: 1230.41
+    - figure: Fig13
+      curve: prod_1.0pct
+      eta_f_fb_pct: 1.0
+      marker_symbol: square
+      reserve_time_tr_hours: 12.0
+      tr_detected_hours: 11.95
+      reserve_inventory_Ir_kg: 5.769
+      pixel_x: 632.07
+      pixel_y: 1157.52
+    - figure: Fig13
+      curve: prod_1.0pct
+      eta_f_fb_pct: 1.0
+      marker_symbol: square
+      reserve_time_tr_hours: 24.0
+      tr_detected_hours: 23.99
+      reserve_inventory_Ir_kg: 11.56
+      pixel_x: 1053.22
+      pixel_y: 1008.44
+    - figure: Fig13
+      curve: prod_1.0pct
+      eta_f_fb_pct: 1.0
+      marker_symbol: square
+      reserve_time_tr_hours: 48.0
+      tr_detected_hours: 47.98
+      reserve_inventory_Ir_kg: 23.001
+      pixel_x: 1892.47
+      pixel_y: 713.96
+    - figure: Fig13
+      curve: prod_2.0pct
+      eta_f_fb_pct: 2.0
+      marker_symbol: triangle
+      reserve_time_tr_hours: 0.0
+      tr_detected_hours: 0.22
+      reserve_inventory_Ir_kg: 0.0
+      pixel_x: 221.75
+      pixel_y: 1313.31
+    - figure: Fig13
+      curve: prod_2.0pct
+      eta_f_fb_pct: 2.0
+      marker_symbol: triangle
+      reserve_time_tr_hours: 2.0
+      tr_detected_hours: 2.38
+      reserve_inventory_Ir_kg: 0.757
+      pixel_x: 297.22
+      pixel_y: 1286.52
+    - figure: Fig13
+      curve: prod_2.0pct
+      eta_f_fb_pct: 2.0
+      marker_symbol: triangle
+      reserve_time_tr_hours: 6.0
+      tr_detected_hours: 5.99
+      reserve_inventory_Ir_kg: 1.705
+      pixel_x: 423.52
+      pixel_y: 1262.12
+    - figure: Fig13
+      curve: prod_2.0pct
+      eta_f_fb_pct: 2.0
+      marker_symbol: triangle
+      reserve_time_tr_hours: 12.0
+      tr_detected_hours: 11.98
+      reserve_inventory_Ir_kg: 2.908
+      pixel_x: 633.03
+      pixel_y: 1231.16
+    - figure: Fig13
+      curve: prod_2.0pct
+      eta_f_fb_pct: 2.0
+      marker_symbol: triangle
+      reserve_time_tr_hours: 24.0
+      tr_detected_hours: 23.99
+      reserve_inventory_Ir_kg: 5.749
+      pixel_x: 1053.23
+      pixel_y: 1158.01
+    - figure: Fig13
+      curve: prod_2.0pct
+      eta_f_fb_pct: 2.0
+      marker_symbol: triangle
+      reserve_time_tr_hours: 48.0
+      tr_detected_hours: 47.99
+      reserve_inventory_Ir_kg: 11.525
+      pixel_x: 1892.75
+      pixel_y: 1009.36
+    - figure: Fig13
+      curve: prod_3.0pct
+      eta_f_fb_pct: 3.0
+      marker_symbol: star
+      reserve_time_tr_hours: 0.0
+      tr_detected_hours: 0.29
+      reserve_inventory_Ir_kg: 0.0
+      pixel_x: 224.0
+      pixel_y: 1315.46
+    - figure: Fig13
+      curve: prod_3.0pct
+      eta_f_fb_pct: 3.0
+      marker_symbol: star
+      reserve_time_tr_hours: 2.0
+      tr_detected_hours: 2.41
+      reserve_inventory_Ir_kg: 0.683
+      pixel_x: 298.13
+      pixel_y: 1288.41
+    - figure: Fig13
+      curve: prod_3.0pct
+      eta_f_fb_pct: 3.0
+      marker_symbol: star
+      reserve_time_tr_hours: 6.0
+      tr_detected_hours: 6.04
+      reserve_inventory_Ir_kg: 1.331
+      pixel_x: 425.22
+      pixel_y: 1271.75
+    - figure: Fig13
+      curve: prod_3.0pct
+      eta_f_fb_pct: 3.0
+      marker_symbol: star
+      reserve_time_tr_hours: 12.0
+      tr_detected_hours: 11.96
+      reserve_inventory_Ir_kg: 2.183
+      pixel_x: 632.39
+      pixel_y: 1249.82
+    - figure: Fig13
+      curve: prod_3.0pct
+      eta_f_fb_pct: 3.0
+      marker_symbol: star
+      reserve_time_tr_hours: 24.0
+      tr_detected_hours: 23.99
+      reserve_inventory_Ir_kg: 3.86
+      pixel_x: 1053.25
+      pixel_y: 1206.66
+    - figure: Fig13
+      curve: prod_3.0pct
+      eta_f_fb_pct: 3.0
+      marker_symbol: star
+      reserve_time_tr_hours: 48.0
+      tr_detected_hours: 47.98
+      reserve_inventory_Ir_kg: 7.704
+      pixel_x: 1892.25
+      pixel_y: 1107.71
+    - figure: Fig13
+      curve: prod_5.0pct
+      eta_f_fb_pct: 5.0
+      marker_symbol: diamond
+      reserve_time_tr_hours: 0.0
+      tr_detected_hours: -0.05
+      reserve_inventory_Ir_kg: 0.0
+      pixel_x: 212.42
+      pixel_y: 1303.57
+    - figure: Fig13
+      curve: prod_5.0pct
+      eta_f_fb_pct: 5.0
+      marker_symbol: diamond
+      reserve_time_tr_hours: 2.0
+      tr_detected_hours: 1.97
+      reserve_inventory_Ir_kg: 0.269
+      pixel_x: 282.88
+      pixel_y: 1299.07
+    - figure: Fig13
+      curve: prod_5.0pct
+      eta_f_fb_pct: 5.0
+      marker_symbol: diamond
+      reserve_time_tr_hours: 6.0
+      tr_detected_hours: 5.95
+      reserve_inventory_Ir_kg: 0.655
+      pixel_x: 421.99
+      pixel_y: 1289.14
+    - figure: Fig13
+      curve: prod_5.0pct
+      eta_f_fb_pct: 5.0
+      marker_symbol: diamond
+      reserve_time_tr_hours: 12.0
+      tr_detected_hours: 11.96
+      reserve_inventory_Ir_kg: 1.186
+      pixel_x: 632.31
+      pixel_y: 1275.46
+    - figure: Fig13
+      curve: prod_5.0pct
+      eta_f_fb_pct: 5.0
+      marker_symbol: diamond
+      reserve_time_tr_hours: 24.0
+      tr_detected_hours: 23.99
+      reserve_inventory_Ir_kg: 2.326
+      pixel_x: 1053.09
+      pixel_y: 1246.13
+    - figure: Fig13
+      curve: prod_5.0pct
+      eta_f_fb_pct: 5.0
+      marker_symbol: diamond
+      reserve_time_tr_hours: 48.0
+      tr_detected_hours: 47.99
+      reserve_inventory_Ir_kg: 4.616
+      pixel_x: 1892.55
+      pixel_y: 1187.18
+  Fig14:
+    total_points: 30
+    curves:
+    - prod_0.5pct
+    - prod_1.0pct
+    - prod_2.0pct
+    - prod_3.0pct
+    - prod_5.0pct
+    records:
+    - figure: Fig14
+      curve: prod_0.5pct
+      eta_f_fb_pct: 0.5
+      marker_symbol: circle
+      reserve_time_tr_hours: 0.0
+      tr_detected_hours: -0.01
+      required_tbr: 1.1351
+      pixel_x: 247.7
+      pixel_y: 703.58
+    - figure: Fig14
+      curve: prod_0.5pct
+      eta_f_fb_pct: 0.5
+      marker_symbol: circle
+      reserve_time_tr_hours: 2.0
+      tr_detected_hours: 1.97
+      required_tbr: 1.1412
+      pixel_x: 315.02
+      pixel_y: 678.19
+    - figure: Fig14
+      curve: prod_0.5pct
+      eta_f_fb_pct: 0.5
+      marker_symbol: circle
+      reserve_time_tr_hours: 6.0
+      tr_detected_hours: 5.98
+      required_tbr: 1.1542
+      pixel_x: 450.91
+      pixel_y: 624.12
+    - figure: Fig14
+      curve: prod_0.5pct
+      eta_f_fb_pct: 0.5
+      marker_symbol: circle
+      reserve_time_tr_hours: 12.0
+      tr_detected_hours: 11.99
+      required_tbr: 1.1732
+      pixel_x: 654.85
+      pixel_y: 544.76
+    - figure: Fig14
+      curve: prod_0.5pct
+      eta_f_fb_pct: 0.5
+      marker_symbol: circle
+      reserve_time_tr_hours: 24.0
+      tr_detected_hours: 23.99
+      required_tbr: 1.213
+      pixel_x: 1062.13
+      pixel_y: 379.4
+    - figure: Fig14
+      curve: prod_0.5pct
+      eta_f_fb_pct: 0.5
+      marker_symbol: circle
+      reserve_time_tr_hours: 48.0
+      tr_detected_hours: 48.0
+      required_tbr: 1.2911
+      pixel_x: 1876.94
+      pixel_y: 54.19
+    - figure: Fig14
+      curve: prod_1.0pct
+      eta_f_fb_pct: 1.0
+      marker_symbol: square
+      reserve_time_tr_hours: 0.0
+      tr_detected_hours: -0.02
+      required_tbr: 1.0692
+      pixel_x: 247.41
+      pixel_y: 977.9
+    - figure: Fig14
+      curve: prod_1.0pct
+      eta_f_fb_pct: 1.0
+      marker_symbol: square
+      reserve_time_tr_hours: 2.0
+      tr_detected_hours: 1.98
+      required_tbr: 1.0722
+      pixel_x: 315.04
+      pixel_y: 965.2
+    - figure: Fig14
+      curve: prod_1.0pct
+      eta_f_fb_pct: 1.0
+      marker_symbol: square
+      reserve_time_tr_hours: 6.0
+      tr_detected_hours: 5.98
+      required_tbr: 1.079
+      pixel_x: 450.81
+      pixel_y: 936.94
+    - figure: Fig14
+      curve: prod_1.0pct
+      eta_f_fb_pct: 1.0
+      marker_symbol: square
+      reserve_time_tr_hours: 12.0
+      tr_detected_hours: 11.99
+      required_tbr: 1.0891
+      pixel_x: 654.89
+      pixel_y: 895.15
+    - figure: Fig14
+      curve: prod_1.0pct
+      eta_f_fb_pct: 1.0
+      marker_symbol: square
+      reserve_time_tr_hours: 24.0
+      tr_detected_hours: 23.99
+      required_tbr: 1.1089
+      pixel_x: 1062.12
+      pixel_y: 812.64
+    - figure: Fig14
+      curve: prod_1.0pct
+      eta_f_fb_pct: 1.0
+      marker_symbol: square
+      reserve_time_tr_hours: 48.0
+      tr_detected_hours: 48.0
+      required_tbr: 1.1472
+      pixel_x: 1876.87
+      pixel_y: 653.04
+    - figure: Fig14
+      curve: prod_2.0pct
+      eta_f_fb_pct: 2.0
+      marker_symbol: triangle
+      reserve_time_tr_hours: 0.0
+      tr_detected_hours: -0.02
+      required_tbr: 1.0369
+      pixel_x: 247.31
+      pixel_y: 1112.44
+    - figure: Fig14
+      curve: prod_2.0pct
+      eta_f_fb_pct: 2.0
+      marker_symbol: triangle
+      reserve_time_tr_hours: 2.0
+      tr_detected_hours: 1.98
+      required_tbr: 1.0387
+      pixel_x: 315.12
+      pixel_y: 1104.96
+    - figure: Fig14
+      curve: prod_2.0pct
+      eta_f_fb_pct: 2.0
+      marker_symbol: triangle
+      reserve_time_tr_hours: 6.0
+      tr_detected_hours: 5.98
+      required_tbr: 1.0411
+      pixel_x: 450.81
+      pixel_y: 1094.96
+    - figure: Fig14
+      curve: prod_2.0pct
+      eta_f_fb_pct: 2.0
+      marker_symbol: triangle
+      reserve_time_tr_hours: 12.0
+      tr_detected_hours: 11.99
+      required_tbr: 1.0458
+      pixel_x: 654.77
+      pixel_y: 1075.16
+    - figure: Fig14
+      curve: prod_2.0pct
+      eta_f_fb_pct: 2.0
+      marker_symbol: triangle
+      reserve_time_tr_hours: 24.0
+      tr_detected_hours: 23.99
+      required_tbr: 1.0559
+      pixel_x: 1062.06
+      pixel_y: 1033.27
+    - figure: Fig14
+      curve: prod_2.0pct
+      eta_f_fb_pct: 2.0
+      marker_symbol: triangle
+      reserve_time_tr_hours: 48.0
+      tr_detected_hours: 47.99
+      required_tbr: 1.0757
+      pixel_x: 1876.83
+      pixel_y: 950.75
+    - figure: Fig14
+      curve: prod_3.0pct
+      eta_f_fb_pct: 3.0
+      marker_symbol: star
+      reserve_time_tr_hours: 0.0
+      tr_detected_hours: -0.04
+      required_tbr: 1.0263
+      pixel_x: 246.53
+      pixel_y: 1156.51
+    - figure: Fig14
+      curve: prod_3.0pct
+      eta_f_fb_pct: 3.0
+      marker_symbol: star
+      reserve_time_tr_hours: 2.0
+      tr_detected_hours: 1.98
+      required_tbr: 1.0272
+      pixel_x: 315.28
+      pixel_y: 1152.87
+    - figure: Fig14
+      curve: prod_3.0pct
+      eta_f_fb_pct: 3.0
+      marker_symbol: star
+      reserve_time_tr_hours: 6.0
+      tr_detected_hours: 5.96
+      required_tbr: 1.0288
+      pixel_x: 450.15
+      pixel_y: 1146.06
+    - figure: Fig14
+      curve: prod_3.0pct
+      eta_f_fb_pct: 3.0
+      marker_symbol: star
+      reserve_time_tr_hours: 12.0
+      tr_detected_hours: 11.96
+      required_tbr: 1.0321
+      pixel_x: 654.03
+      pixel_y: 1132.39
+    - figure: Fig14
+      curve: prod_3.0pct
+      eta_f_fb_pct: 3.0
+      marker_symbol: star
+      reserve_time_tr_hours: 24.0
+      tr_detected_hours: 23.98
+      required_tbr: 1.0387
+      pixel_x: 1061.98
+      pixel_y: 1105.03
+    - figure: Fig14
+      curve: prod_3.0pct
+      eta_f_fb_pct: 3.0
+      marker_symbol: star
+      reserve_time_tr_hours: 48.0
+      tr_detected_hours: 47.98
+      required_tbr: 1.0518
+      pixel_x: 1876.33
+      pixel_y: 1050.46
+    - figure: Fig14
+      curve: prod_5.0pct
+      eta_f_fb_pct: 5.0
+      marker_symbol: diamond
+      reserve_time_tr_hours: 0.0
+      tr_detected_hours: -0.04
+      required_tbr: 1.0171
+      pixel_x: 246.69
+      pixel_y: 1194.74
+    - figure: Fig14
+      curve: prod_5.0pct
+      eta_f_fb_pct: 5.0
+      marker_symbol: diamond
+      reserve_time_tr_hours: 2.0
+      tr_detected_hours: 1.97
+      required_tbr: 1.018
+      pixel_x: 314.99
+      pixel_y: 1191.2
+    - figure: Fig14
+      curve: prod_5.0pct
+      eta_f_fb_pct: 5.0
+      marker_symbol: diamond
+      reserve_time_tr_hours: 6.0
+      tr_detected_hours: 5.96
+      required_tbr: 1.0191
+      pixel_x: 450.39
+      pixel_y: 1186.36
+    - figure: Fig14
+      curve: prod_5.0pct
+      eta_f_fb_pct: 5.0
+      marker_symbol: diamond
+      reserve_time_tr_hours: 12.0
+      tr_detected_hours: 11.98
+      required_tbr: 1.021
+      pixel_x: 654.54
+      pixel_y: 1178.63
+    - figure: Fig14
+      curve: prod_5.0pct
+      eta_f_fb_pct: 5.0
+      marker_symbol: diamond
+      reserve_time_tr_hours: 24.0
+      tr_detected_hours: 23.99
+      required_tbr: 1.0251
+      pixel_x: 1062.14
+      pixel_y: 1161.52
+    - figure: Fig14
+      curve: prod_5.0pct
+      eta_f_fb_pct: 5.0
+      marker_symbol: diamond
+      reserve_time_tr_hours: 48.0
+      tr_detected_hours: 48.0
+      required_tbr: 1.0331
+      pixel_x: 1876.99
+      pixel_y: 1128.13
+  Fig15:
+    total_points: 28
+    curves:
+    - prod_0.5pct_tr24h
+    - prod_0.5pct_tr6h
+    - prod_5.0pct_tr24h
+    - prod_5.0pct_tr6h
+    records:
+    - figure: Fig15
+      curve: prod_0.5pct_tr24h
+      eta_f_fb_pct: 0.5
+      reserve_time_tr_hours: 24.0
+      fusion_power_MW: 100.0
+      startup_inventory_IS0_kg: 1.413
+      pixel_x: 270.0
+      pixel_y: 1217.34
+    - figure: Fig15
+      curve: prod_0.5pct_tr24h
+      eta_f_fb_pct: 0.5
+      reserve_time_tr_hours: 24.0
+      fusion_power_MW: 500.0
+      startup_inventory_IS0_kg: 7.067
+      pixel_x: 486.0
+      pixel_y: 1062.69
+    - figure: Fig15
+      curve: prod_0.5pct_tr24h
+      eta_f_fb_pct: 0.5
+      reserve_time_tr_hours: 24.0
+      fusion_power_MW: 1000.0
+      startup_inventory_IS0_kg: 14.133
+      pixel_x: 756.0
+      pixel_y: 869.37
+    - figure: Fig15
+      curve: prod_0.5pct_tr24h
+      eta_f_fb_pct: 0.5
+      reserve_time_tr_hours: 24.0
+      fusion_power_MW: 1500.0
+      startup_inventory_IS0_kg: 21.2
+      pixel_x: 1026.0
+      pixel_y: 676.06
+    - figure: Fig15
+      curve: prod_0.5pct_tr24h
+      eta_f_fb_pct: 0.5
+      reserve_time_tr_hours: 24.0
+      fusion_power_MW: 2000.0
+      startup_inventory_IS0_kg: 28.267
+      pixel_x: 1296.0
+      pixel_y: 482.75
+    - figure: Fig15
+      curve: prod_0.5pct_tr24h
+      eta_f_fb_pct: 0.5
+      reserve_time_tr_hours: 24.0
+      fusion_power_MW: 2500.0
+      startup_inventory_IS0_kg: 35.333
+      pixel_x: 1566.0
+      pixel_y: 289.44
+    - figure: Fig15
+      curve: prod_0.5pct_tr24h
+      eta_f_fb_pct: 0.5
+      reserve_time_tr_hours: 24.0
+      fusion_power_MW: 3000.0
+      startup_inventory_IS0_kg: 42.4
+      pixel_x: 1836.0
+      pixel_y: 96.12
+    - figure: Fig15
+      curve: prod_0.5pct_tr6h
+      eta_f_fb_pct: 0.5
+      reserve_time_tr_hours: 6.0
+      fusion_power_MW: 100.0
+      startup_inventory_IS0_kg: 0.84
+      pixel_x: 270.0
+      pixel_y: 1233.02
+    - figure: Fig15
+      curve: prod_0.5pct_tr6h
+      eta_f_fb_pct: 0.5
+      reserve_time_tr_hours: 6.0
+      fusion_power_MW: 500.0
+      startup_inventory_IS0_kg: 4.2
+      pixel_x: 486.0
+      pixel_y: 1141.11
+    - figure: Fig15
+      curve: prod_0.5pct_tr6h
+      eta_f_fb_pct: 0.5
+      reserve_time_tr_hours: 6.0
+      fusion_power_MW: 1000.0
+      startup_inventory_IS0_kg: 8.4
+      pixel_x: 756.0
+      pixel_y: 1026.21
+    - figure: Fig15
+      curve: prod_0.5pct_tr6h
+      eta_f_fb_pct: 0.5
+      reserve_time_tr_hours: 6.0
+      fusion_power_MW: 1500.0
+      startup_inventory_IS0_kg: 12.6
+      pixel_x: 1026.0
+      pixel_y: 911.32
+    - figure: Fig15
+      curve: prod_0.5pct_tr6h
+      eta_f_fb_pct: 0.5
+      reserve_time_tr_hours: 6.0
+      fusion_power_MW: 2000.0
+      startup_inventory_IS0_kg: 16.8
+      pixel_x: 1296.0
+      pixel_y: 796.43
+    - figure: Fig15
+      curve: prod_0.5pct_tr6h
+      eta_f_fb_pct: 0.5
+      reserve_time_tr_hours: 6.0
+      fusion_power_MW: 2500.0
+      startup_inventory_IS0_kg: 21.0
+      pixel_x: 1566.0
+      pixel_y: 681.53
+    - figure: Fig15
+      curve: prod_0.5pct_tr6h
+      eta_f_fb_pct: 0.5
+      reserve_time_tr_hours: 6.0
+      fusion_power_MW: 3000.0
+      startup_inventory_IS0_kg: 25.2
+      pixel_x: 1836.0
+      pixel_y: 566.64
+    - figure: Fig15
+      curve: prod_5.0pct_tr24h
+      eta_f_fb_pct: 5.0
+      reserve_time_tr_hours: 24.0
+      fusion_power_MW: 100.0
+      startup_inventory_IS0_kg: 0.17
+      pixel_x: 270.0
+      pixel_y: 1251.35
+    - figure: Fig15
+      curve: prod_5.0pct_tr24h
+      eta_f_fb_pct: 5.0
+      reserve_time_tr_hours: 24.0
+      fusion_power_MW: 500.0
+      startup_inventory_IS0_kg: 0.85
+      pixel_x: 486.0
+      pixel_y: 1232.75
+    - figure: Fig15
+      curve: prod_5.0pct_tr24h
+      eta_f_fb_pct: 5.0
+      reserve_time_tr_hours: 24.0
+      fusion_power_MW: 1000.0
+      startup_inventory_IS0_kg: 1.7
+      pixel_x: 756.0
+      pixel_y: 1209.5
+    - figure: Fig15
+      curve: prod_5.0pct_tr24h
+      eta_f_fb_pct: 5.0
+      reserve_time_tr_hours: 24.0
+      fusion_power_MW: 1500.0
+      startup_inventory_IS0_kg: 2.55
+      pixel_x: 1026.0
+      pixel_y: 1186.24
+    - figure: Fig15
+      curve: prod_5.0pct_tr24h
+      eta_f_fb_pct: 5.0
+      reserve_time_tr_hours: 24.0
+      fusion_power_MW: 2000.0
+      startup_inventory_IS0_kg: 3.4
+      pixel_x: 1296.0
+      pixel_y: 1162.99
+    - figure: Fig15
+      curve: prod_5.0pct_tr24h
+      eta_f_fb_pct: 5.0
+      reserve_time_tr_hours: 24.0
+      fusion_power_MW: 2500.0
+      startup_inventory_IS0_kg: 4.25
+      pixel_x: 1566.0
+      pixel_y: 1139.74
+    - figure: Fig15
+      curve: prod_5.0pct_tr24h
+      eta_f_fb_pct: 5.0
+      reserve_time_tr_hours: 24.0
+      fusion_power_MW: 3000.0
+      startup_inventory_IS0_kg: 5.1
+      pixel_x: 1836.0
+      pixel_y: 1116.49
+    - figure: Fig15
+      curve: prod_5.0pct_tr6h
+      eta_f_fb_pct: 5.0
+      reserve_time_tr_hours: 6.0
+      fusion_power_MW: 100.0
+      startup_inventory_IS0_kg: 0.11
+      pixel_x: 270.0
+      pixel_y: 1252.99
+    - figure: Fig15
+      curve: prod_5.0pct_tr6h
+      eta_f_fb_pct: 5.0
+      reserve_time_tr_hours: 6.0
+      fusion_power_MW: 500.0
+      startup_inventory_IS0_kg: 0.55
+      pixel_x: 486.0
+      pixel_y: 1240.95
+    - figure: Fig15
+      curve: prod_5.0pct_tr6h
+      eta_f_fb_pct: 5.0
+      reserve_time_tr_hours: 6.0
+      fusion_power_MW: 1000.0
+      startup_inventory_IS0_kg: 1.1
+      pixel_x: 756.0
+      pixel_y: 1225.91
+    - figure: Fig15
+      curve: prod_5.0pct_tr6h
+      eta_f_fb_pct: 5.0
+      reserve_time_tr_hours: 6.0
+      fusion_power_MW: 1500.0
+      startup_inventory_IS0_kg: 1.65
+      pixel_x: 1026.0
+      pixel_y: 1210.86
+    - figure: Fig15
+      curve: prod_5.0pct_tr6h
+      eta_f_fb_pct: 5.0
+      reserve_time_tr_hours: 6.0
+      fusion_power_MW: 2000.0
+      startup_inventory_IS0_kg: 2.2
+      pixel_x: 1296.0
+      pixel_y: 1195.82
+    - figure: Fig15
+      curve: prod_5.0pct_tr6h
+      eta_f_fb_pct: 5.0
+      reserve_time_tr_hours: 6.0
+      fusion_power_MW: 2500.0
+      startup_inventory_IS0_kg: 2.75
+      pixel_x: 1566.0
+      pixel_y: 1180.77
+    - figure: Fig15
+      curve: prod_5.0pct_tr6h
+      eta_f_fb_pct: 5.0
+      reserve_time_tr_hours: 6.0
+      fusion_power_MW: 3000.0
+      startup_inventory_IS0_kg: 3.3
+      pixel_x: 1836.0
+      pixel_y: 1165.73

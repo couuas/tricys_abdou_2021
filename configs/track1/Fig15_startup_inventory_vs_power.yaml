@@ -1,0 +1,266 @@
+version: '2.0'
+model:
+  fileName: ../../models/Abdou2021.mo
+  modelName: Abdou2021.Cycle
+scenario:
+  time_base: hour
+  startTime: 0.0
+  stopTime: 50000.0
+  stepSize: 1.0
+  method: dassl
+  tolerance: 0.0001
+  variableFilter: time|comp11_Storage.inventory|comp11_Storage.I_reserve_req|plant_total_inv|plant_mass_residual
+task:
+  type: sweep
+  parallel: true
+  max_workers: 8
+  parameters:
+  - name: P100MW_prod0.5pct_tr24h
+    P_fus: 100.0
+    AF: 1.0
+    f_b: 0.02
+    eta_f: 0.25
+    t_r: 24.0
+    q_fail: 0.25
+    f_DIR: 0.0
+  - name: P500MW_prod0.5pct_tr24h
+    P_fus: 500.0
+    AF: 1.0
+    f_b: 0.02
+    eta_f: 0.25
+    t_r: 24.0
+    q_fail: 0.25
+    f_DIR: 0.0
+  - name: P1000MW_prod0.5pct_tr24h
+    P_fus: 1000.0
+    AF: 1.0
+    f_b: 0.02
+    eta_f: 0.25
+    t_r: 24.0
+    q_fail: 0.25
+    f_DIR: 0.0
+  - name: P1500MW_prod0.5pct_tr24h
+    P_fus: 1500.0
+    AF: 1.0
+    f_b: 0.02
+    eta_f: 0.25
+    t_r: 24.0
+    q_fail: 0.25
+    f_DIR: 0.0
+  - name: P2000MW_prod0.5pct_tr24h
+    P_fus: 2000.0
+    AF: 1.0
+    f_b: 0.02
+    eta_f: 0.25
+    t_r: 24.0
+    q_fail: 0.25
+    f_DIR: 0.0
+  - name: P2500MW_prod0.5pct_tr24h
+    P_fus: 2500.0
+    AF: 1.0
+    f_b: 0.02
+    eta_f: 0.25
+    t_r: 24.0
+    q_fail: 0.25
+    f_DIR: 0.0
+  - name: P3000MW_prod0.5pct_tr24h
+    P_fus: 3000.0
+    AF: 1.0
+    f_b: 0.02
+    eta_f: 0.25
+    t_r: 24.0
+    q_fail: 0.25
+    f_DIR: 0.0
+  - name: P100MW_prod0.5pct_tr6h
+    P_fus: 100.0
+    AF: 1.0
+    f_b: 0.02
+    eta_f: 0.25
+    t_r: 6.0
+    q_fail: 0.25
+    f_DIR: 0.0
+  - name: P500MW_prod0.5pct_tr6h
+    P_fus: 500.0
+    AF: 1.0
+    f_b: 0.02
+    eta_f: 0.25
+    t_r: 6.0
+    q_fail: 0.25
+    f_DIR: 0.0
+  - name: P1000MW_prod0.5pct_tr6h
+    P_fus: 1000.0
+    AF: 1.0
+    f_b: 0.02
+    eta_f: 0.25
+    t_r: 6.0
+    q_fail: 0.25
+    f_DIR: 0.0
+  - name: P1500MW_prod0.5pct_tr6h
+    P_fus: 1500.0
+    AF: 1.0
+    f_b: 0.02
+    eta_f: 0.25
+    t_r: 6.0
+    q_fail: 0.25
+    f_DIR: 0.0
+  - name: P2000MW_prod0.5pct_tr6h
+    P_fus: 2000.0
+    AF: 1.0
+    f_b: 0.02
+    eta_f: 0.25
+    t_r: 6.0
+    q_fail: 0.25
+    f_DIR: 0.0
+  - name: P2500MW_prod0.5pct_tr6h
+    P_fus: 2500.0
+    AF: 1.0
+    f_b: 0.02
+    eta_f: 0.25
+    t_r: 6.0
+    q_fail: 0.25
+    f_DIR: 0.0
+  - name: P3000MW_prod0.5pct_tr6h
+    P_fus: 3000.0
+    AF: 1.0
+    f_b: 0.02
+    eta_f: 0.25
+    t_r: 6.0
+    q_fail: 0.25
+    f_DIR: 0.0
+  - name: P100MW_prod5.0pct_tr24h
+    P_fus: 100.0
+    AF: 1.0
+    f_b: 0.2
+    eta_f: 0.25
+    t_r: 24.0
+    q_fail: 0.25
+    f_DIR: 0.0
+  - name: P500MW_prod5.0pct_tr24h
+    P_fus: 500.0
+    AF: 1.0
+    f_b: 0.2
+    eta_f: 0.25
+    t_r: 24.0
+    q_fail: 0.25
+    f_DIR: 0.0
+  - name: P1000MW_prod5.0pct_tr24h
+    P_fus: 1000.0
+    AF: 1.0
+    f_b: 0.2
+    eta_f: 0.25
+    t_r: 24.0
+    q_fail: 0.25
+    f_DIR: 0.0
+  - name: P1500MW_prod5.0pct_tr24h
+    P_fus: 1500.0
+    AF: 1.0
+    f_b: 0.2
+    eta_f: 0.25
+    t_r: 24.0
+    q_fail: 0.25
+    f_DIR: 0.0
+  - name: P2000MW_prod5.0pct_tr24h
+    P_fus: 2000.0
+    AF: 1.0
+    f_b: 0.2
+    eta_f: 0.25
+    t_r: 24.0
+    q_fail: 0.25
+    f_DIR: 0.0
+  - name: P2500MW_prod5.0pct_tr24h
+    P_fus: 2500.0
+    AF: 1.0
+    f_b: 0.2
+    eta_f: 0.25
+    t_r: 24.0
+    q_fail: 0.25
+    f_DIR: 0.0
+  - name: P3000MW_prod5.0pct_tr24h
+    P_fus: 3000.0
+    AF: 1.0
+    f_b: 0.2
+    eta_f: 0.25
+    t_r: 24.0
+    q_fail: 0.25
+    f_DIR: 0.0
+  - name: P100MW_prod5.0pct_tr6h
+    P_fus: 100.0
+    AF: 1.0
+    f_b: 0.2
+    eta_f: 0.25
+    t_r: 6.0
+    q_fail: 0.25
+    f_DIR: 0.0
+  - name: P500MW_prod5.0pct_tr6h
+    P_fus: 500.0
+    AF: 1.0
+    f_b: 0.2
+    eta_f: 0.25
+    t_r: 6.0
+    q_fail: 0.25
+    f_DIR: 0.0
+  - name: P1000MW_prod5.0pct_tr6h
+    P_fus: 1000.0
+    AF: 1.0
+    f_b: 0.2
+    eta_f: 0.25
+    t_r: 6.0
+    q_fail: 0.25
+    f_DIR: 0.0
+  - name: P1500MW_prod5.0pct_tr6h
+    P_fus: 1500.0
+    AF: 1.0
+    f_b: 0.2
+    eta_f: 0.25
+    t_r: 6.0
+    q_fail: 0.25
+    f_DIR: 0.0
+  - name: P2000MW_prod5.0pct_tr6h
+    P_fus: 2000.0
+    AF: 1.0
+    f_b: 0.2
+    eta_f: 0.25
+    t_r: 6.0
+    q_fail: 0.25
+    f_DIR: 0.0
+  - name: P2500MW_prod5.0pct_tr6h
+    P_fus: 2500.0
+    AF: 1.0
+    f_b: 0.2
+    eta_f: 0.25
+    t_r: 6.0
+    q_fail: 0.25
+    f_DIR: 0.0
+  - name: P3000MW_prod5.0pct_tr6h
+    P_fus: 3000.0
+    AF: 1.0
+    f_b: 0.2
+    eta_f: 0.25
+    t_r: 6.0
+    q_fail: 0.25
+    f_DIR: 0.0
+  optimization:
+    track: track1_basis
+    track1:
+      mode: direct
+      interpolation_method: pchip
+      subgrid_nadir_refinement: true
+    outer:
+      target_metric:
+        source: comp11_Storage.inventory
+        evaluate: min_value
+        threshold_source: comp11_Storage.I_reserve_req
+        comparator: '>='
+    inner:
+      metric_name: Required_TBR
+      parameter: Lambda
+      target_metric:
+        source: comp11_Storage.inventory
+        evaluate: doubling_time
+        threshold: 43830.0
+        comparator: <=
+plugins:
+  postprocess:
+  - name: abdou_fig15_startup_inventory_vs_power
+    params:
+      dpi: 300

@@ -1,0 +1,68 @@
+"""Abdou 2021 Tritium Fuel Cycle Benchmark & Verification Plugins.
+
+This module re-exports all plugins from tricys.plugins.abdou for backward compatibility.
+"""
+
+from __future__ import annotations
+
+from .abdou import (
+    YEARS_TO_HOURS,
+    TRITIUM_HALF_LIFE_YEARS,
+    LAMBDA_PER_HOUR,
+    get_burn_rate_g_per_h,
+    load_benchmark_data,
+    AbdouGroup1Plugin,
+    AbdouGroup2Plugin,
+    AbdouGroup3Plugin,
+    AbdouBenchmarkMasterPlugin,
+    _SingleFigurePluginBase,
+    AbdouFig01Plugin,
+    AbdouFig02Plugin,
+    AbdouFig03Plugin,
+    AbdouFig04Plugin,
+    AbdouFig05Plugin,
+    AbdouFig06Plugin,
+    AbdouFig07Plugin,
+    AbdouFig08Plugin,
+    AbdouFig09Plugin,
+    AbdouFig10Plugin,
+    AbdouFig11Plugin,
+    AbdouFig12Plugin,
+    AbdouFig13Plugin,
+    AbdouFig14Plugin,
+    AbdouFig15Plugin,
+    AbdouFig16Plugin,
+    AbdouFig17Plugin,
+    AbdouSynthesisPlugin,
+)
+
+__all__ = [
+    "YEARS_TO_HOURS",
+    "TRITIUM_HALF_LIFE_YEARS",
+    "LAMBDA_PER_HOUR",
+    "get_burn_rate_g_per_h",
+    "load_benchmark_data",
+    "AbdouGroup1Plugin",
+    "AbdouGroup2Plugin",
+    "AbdouGroup3Plugin",
+    "AbdouBenchmarkMasterPlugin",
+    "_SingleFigurePluginBase",
+    "AbdouFig01Plugin",
+    "AbdouFig02Plugin",
+    "AbdouFig03Plugin",
+    "AbdouFig04Plugin",
+    "AbdouFig05Plugin",
+    "AbdouFig06Plugin",
+    "AbdouFig07Plugin",
+    "AbdouFig08Plugin",
+    "AbdouFig09Plugin",
+    "AbdouFig10Plugin",
+    "AbdouFig11Plugin",
+    "AbdouFig12Plugin",
+    "AbdouFig13Plugin",
+    "AbdouFig14Plugin",
+    "AbdouFig15Plugin",
+    "AbdouFig16Plugin",
+    "AbdouFig17Plugin",
+    "AbdouSynthesisPlugin",
+]
